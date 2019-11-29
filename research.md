@@ -132,6 +132,7 @@ Describe your research interests here.
 	</li><br>
 </ul>
 
+<!--
 <h2>Research Projects</h2>
 <ul>
 	<li>
@@ -159,3 +160,4 @@ Describe your research interests here.
 		<a href=""><div class="color-button">paper</div></a><a href=""><div class="color-button">report</div></a><a href=""><div class="color-button">code</div></a>
 	</li><br>
 </ul>
+-->
