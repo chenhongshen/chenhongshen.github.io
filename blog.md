@@ -4,6 +4,9 @@ title: Blog
 permalink: /blog/
 ---
 
+Coming soon.
+
+<!--
 Here are my carefully compiled views on some topics that I encountered so far. Hopefully, you will find them helpful! You can also search my posts by category <a href="{{ site.baseurl }}/categories/">here</a>.
 
 <ul class="listing">
@@ -19,3 +22,4 @@ Here are my carefully compiled views on some topics that I encountered so far. H
   </li>
 {% endfor %}
 </ul>
+-->

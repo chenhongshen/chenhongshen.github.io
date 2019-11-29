@@ -4,6 +4,9 @@ permalink: /projects/
 title: Projects
 ---
 
+Coming soon.
+
+<!--
 Here is a non-exhaustive list of my non-research projects. My research work can be found <a href="/research">here</a>. You can also check out my Github profile <a href="">here</a> for a complete list of my projects.
 
 <ul>
@@ -17,3 +20,4 @@ Here is a non-exhaustive list of my non-research projects. My research work can 
 	</li><br>
 
 </ul>
+-->
