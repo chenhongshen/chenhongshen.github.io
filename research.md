@@ -78,7 +78,7 @@ Describe your research interests here.
 		<b>Hierarchical Variational Memory Network for Dialogue Generation. </b><br>
 		<i>Hongshen Chen, Zhaochun Ren, Jiliang Tang, Yihong Eric Zhao and Dawei Yin.</i><br>
 		WWW,2018.<br>
-		<a href="/research/papers/2018www"><div class="color-button">pdf</div></a><a href="https://scholar.googleusercontent.com/scholar.bib?q=info:_KCrrcFboWEJ:scholar.google.com/&output=citation&scisdr=CgWpLQu5EMmQlwwunSo:AAGBfm0AAAAAXeIrhSuT8Td6WnKzAiJNzPKa8Bz1l4P1&scisig=AAGBfm0AAAAAXeIrhag998pp2obIAbN9r8G_96ps-T6Y&scisf=4&ct=citation&cd=-1&hl=en"><div class="color-button">cite</div></a><a href="https://github.com/chenhongshen/HVMN"><div class="color-button">code</div></a>
+		<a href="/research/papers/2018www.pdf"><div class="color-button">pdf</div></a><a href="https://scholar.googleusercontent.com/scholar.bib?q=info:_KCrrcFboWEJ:scholar.google.com/&output=citation&scisdr=CgWpLQu5EMmQlwwunSo:AAGBfm0AAAAAXeIrhSuT8Td6WnKzAiJNzPKa8Bz1l4P1&scisig=AAGBfm0AAAAAXeIrhag998pp2obIAbN9r8G_96ps-T6Y&scisf=4&ct=citation&cd=-1&hl=en"><div class="color-button">cite</div></a><a href="https://github.com/chenhongshen/HVMN"><div class="color-button">code</div></a>
 	</li><br>
 	<li>
 		<b>A Dynamic Product-aware Learning Model for E-commerce Query Intent Understanding.</b><br>
