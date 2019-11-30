@@ -1,0 +1,8 @@
+@inproceedings{zhao2019dynamic,
+  title={A Dynamic Product-aware Learning Model for E-commerce Query Intent Understanding},
+  author={Zhao, Jiashu and Chen, Hongshen and Yin, Dawei},
+  booktitle={Proceedings of the 28th ACM International Conference on Information and Knowledge Management},
+  pages={1843--1852},
+  year={2019},
+  organization={ACM}
+}
