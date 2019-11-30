@@ -38,7 +38,7 @@ Describe your research interests here.
 		<b>A Dynamic Product-aware Learning Model for E-commerce Query Intent Understanding.</b><br>
 		<i>Jiashu Zhao, Hongshen Chen and Dawei Yin.</i><br>
 		In Proceedings of the 28th ACM Conference on Information and Knowledge Management (CIKM 2019), Beijing, China, Oct. 2019.<br>
-		<a href="/research/papers/2019cikm_zhao.pdf"><div class="color-button">pdf</div></a><a href="/research/papers/2019cikm_zhao.cite"><div class="color-button">cite</div></a><a href=""><div class="color-button">code</div></a>
+		<a href="/research/papers/2019cikm_zhao.pdf"><div class="color-button">pdf</div></a><a href="/research/papers/2019cikm_zhao.cite.txt"><div class="color-button">cite</div></a><a href=""><div class="color-button">code</div></a>
 	</li><br>
 	<li>
 		<b>Fine-Grained Product Categorization in E-commerce.</b><br>
