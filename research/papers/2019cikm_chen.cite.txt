@@ -1,0 +1,8 @@
+@inproceedings{chen2019fine,
+  title={Fine-Grained Product Categorization in E-commerce},
+  author={Chen, Hongshen and Zhao, Jiashu and Yin, Dawei},
+  booktitle={Proceedings of the 28th ACM International Conference on Information and Knowledge Management},
+  pages={2349--2352},
+  year={2019},
+  organization={ACM}
+}
