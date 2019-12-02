@@ -96,7 +96,19 @@ Describe your research interests here.
 		<b>Hierarchical Variational Memory Network for Dialogue Generation. </b><br>
 		<i>Hongshen Chen, Zhaochun Ren, Jiliang Tang, Yihong Eric Zhao and Dawei Yin.</i><br>
 		WWW,2018.<br>
-		<a href="/research/papers/2018www.pdf"><div class="color-button">pdf</div></a><a href="/research/papers/2018www.cite.txt"><div class="color-button">cite</div></a><a href="https://github.com/chenhongshen/HVMN"><div class="color-button">code&corpus</div></a>
+		<a href="/research/papers/2018www.pdf"><div class="color-button">pdf</div></a>
+		<div class="color-button" onclick="isHidden('2018www_bibtex')">bibtex</div>
+		<a href="https://github.com/chenhongshen/HVMN"><div class="color-button">code&corpus</div></a>
+		<div class="bibtex-box" id="2018www_bibtex" style="display:none">
+		@inproceedings{chen2018hierarchical, <br>
+		&nbsp;&nbsp; title={Hierarchical variational memory network for dialogue generation}, <br>
+		&nbsp;&nbsp; author={Chen, Hongshen and Ren, Zhaochun and Tang, Jiliang and Zhao, Yihong Eric and Yin, Dawei}, <br>
+		&nbsp;&nbsp; booktitle={Proceedings of the 2018 World Wide Web Conference}, <br>
+		&nbsp;&nbsp; pages={1653--1662}, <br>
+		&nbsp;&nbsp; year={2018}, <br>
+		&nbsp;&nbsp; organization={International World Wide Web Conferences Steering Committee} <br>
+		}
+		</div>
 	</li><br>
 	<li>
 		<b>A Survey on Dialogue Systems: Recent Advances and New Frontiers.</b><br>
