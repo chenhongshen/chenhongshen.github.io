@@ -44,7 +44,19 @@ Describe your research interests here.
 		<b>Fine-Grained Product Categorization in E-commerce.</b><br>
 		<i>Hongshen Chen, Jiashu Zhao and Dawei Yin. </i><br>
 		In Proceedings of the 28th ACM Conference on Information and Knowledge Management (CIKM 2019), Beijing, China, Oct. 2019.<br>
-		<a href="/research/papers/2019cikm_chen.pdf"><div class="color-button">pdf</div></a><a href="/research/papers/2019cikm_chen.cite.txt"><div class="color-button">cite</div></a><a href=""><div class="color-button">code</div></a>
+		<a href="/research/papers/2019cikm_chen.pdf"><div class="color-button">pdf</div></a>
+		<div class="color-button" onclick="isHidden('2019cikm_chen_bibtex')">cite</div>
+		<div class="bibtex-box" id="2019cikm_chen_bibtex">
+		@inproceedings{chen2019fine, <br />
+		&nbsp;&nbsp; title={Fine-Grained Product Categorization in E-commerce}, <br />
+		&nbsp;&nbsp; author={Chen, Hongshen and Zhao, Jiashu and Yin, Dawei}, <br />
+		&nbsp;&nbsp;booktitle={Proceedings of the 28th ACM International Conference on Information and Knowledge Management}, <br />
+		&nbsp;&nbsp;pages={2349--2352}, <br />
+		&nbsp;&nbsp;year={2019}, <br />
+		&nbsp;&nbsp;organization={ACM} <br />
+		}
+		</div>
+		<a href=""><div class="color-button">code</div></a>
 	</li><br>
 	<li>
 		<b>Explicit State Tracking with Semi-Supervision for Neural Dialogue Generation.</b><br>
