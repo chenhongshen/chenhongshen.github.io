@@ -50,10 +50,10 @@ Describe your research interests here.
 		@inproceedings{chen2019fine, <br />
 		&nbsp;&nbsp; title={Fine-Grained Product Categorization in E-commerce}, <br />
 		&nbsp;&nbsp; author={Chen, Hongshen and Zhao, Jiashu and Yin, Dawei}, <br />
-		&nbsp;&nbsp;booktitle={Proceedings of the 28th ACM International Conference on Information and Knowledge Management}, <br />
-		&nbsp;&nbsp;pages={2349--2352}, <br />
-		&nbsp;&nbsp;year={2019}, <br />
-		&nbsp;&nbsp;organization={ACM} <br />
+		&nbsp;&nbsp; booktitle={Proceedings of the 28th ACM International Conference on Information and Knowledge Management}, <br />
+		&nbsp;&nbsp; pages={2349--2352}, <br />
+		&nbsp;&nbsp; year={2019}, <br />
+		&nbsp;&nbsp; organization={ACM} <br />
 		}
 		</div>
 		<a href=""><div class="color-button">code</div></a>
