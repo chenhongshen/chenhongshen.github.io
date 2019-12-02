@@ -106,6 +106,7 @@ Describe your research interests here.
 		ACL 2018, Melbourne, Australia, 2018.<br>
 		<a href="https://www.aclweb.org/anthology/P18-1138/"><div class="color-button">pdf</div></a>
 		<div class="color-button" onclick="isHidden('2018acl_liu_bibtex')">bibtex</div>
+		<a href="https://github.com/liushuman/neural-knowledge-diffusion"><div class="color-button">corpus</div></a>
 		<div class="bibtex-box" id="2018acl_liu_bibtex" style="display:none">
 		@inproceedings{liu-etal-2018-knowledge,
 		&nbsp;&nbsp; title = "Knowledge Diffusion for Neural Dialogue Generation", <br>
