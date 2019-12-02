@@ -127,6 +127,63 @@ Describe your research interests here.
 		&nbsp;&nbsp; abstract = "End-to-end neural dialogue generation has shown promising results recently, but it does not employ knowledge to guide the generation and hence tends to generate short, general, and meaningless responses. In this paper, we propose a neural knowledge diffusion (NKD) model to introduce knowledge into dialogue generation. This method can not only match the relevant facts for the input utterance but diffuse them to similar entities. With the help of facts matching and entity diffusion, the neural dialogue generation is augmented with the ability of convergent and divergent thinking over the knowledge base. Our empirical study on a real-world dataset prove that our model is capable of generating meaningful, diverse and natural responses for both factoid-questions and knowledge grounded chi-chats. The experiment results also show that our model outperforms competitive baseline models significantly.", <br>
 		}
 	</li><br>
+	<li>
+		<b>Learning Tag Dependencies for Sequence Tagging.</b><br>
+		<i>Yuan Zhang, Hongshen Chen, Yihong Eric Zhao, Qun Liu, Dawei Yin.</i><br>
+		IJCAI, 2018.<br>
+		<a href="https://www.ijcai.org/proceedings/2018/0637"><div class="color-button">pdf</div></a>
+		<div class="color-button" onclick="isHidden('2018ijcai_zhang_bibtex')">bibtex</div>
+		<div class="bibtex-box" id="2018ijcai_zhang_bibtex" style="display:none">
+		@inproceedings{ijcai2018-0637, <br>
+		&nbsp;&nbsp; title     = {Learning Tag Dependencies for Sequence Tagging}, <br>
+		&nbsp;&nbsp; author    = {Yuan Zhang and Hongshen Chen and Yihong Zhao and Qun Liu and Dawei Yin}, <br>
+		&nbsp;&nbsp; booktitle = {Proceedings of the Twenty-Seventh International Joint Conference on Artificial Intelligence, {IJCAI-18}}, <br>
+		&nbsp;&nbsp; publisher = {International Joint Conferences on Artificial Intelligence Organization}, <br>
+		&nbsp;&nbsp; pages     = {4581--4587}, <br>
+		&nbsp;&nbsp; year      = {2018}, <br>
+		&nbsp;&nbsp; month     = {7}, <br>
+		&nbsp;&nbsp; doi       = {10.24963/ijcai.2018/637}, <br>
+		&nbsp;&nbsp; url       = {https://doi.org/10.24963/ijcai.2018/637} <br>
+		}
+	</li><br>
+	<li>
+		<b>Hierarchical Variational Memory Network for Dialogue Generation. </b><br>
+		<i>Hongshen Chen, Zhaochun Ren, Jiliang Tang, Yihong Eric Zhao and Dawei Yin.</i><br>
+		WWW,2018.<br>
+		<a href="/research/papers/2018www.pdf"><div class="color-button">pdf</div></a>
+		<div class="color-button" onclick="isHidden('2018www_bibtex')">bibtex</div>
+		<a href="https://github.com/chenhongshen/HVMN"><div class="color-button">code&corpus</div></a>
+		<div class="bibtex-box" id="2018www_bibtex" style="display:none">
+		@inproceedings{chen2018hierarchical, <br>
+		&nbsp;&nbsp; title={Hierarchical variational memory network for dialogue generation}, <br>
+		&nbsp;&nbsp; author={Chen, Hongshen and Ren, Zhaochun and Tang, Jiliang and Zhao, Yihong Eric and Yin, Dawei}, <br>
+		&nbsp;&nbsp; booktitle={Proceedings of the 2018 World Wide Web Conference}, <br>
+		&nbsp;&nbsp; pages={1653--1662}, <br>
+		&nbsp;&nbsp; year={2018}, <br>
+		&nbsp;&nbsp; organization={International World Wide Web Conferences Steering Committee} <br>
+		}
+		</div>
+	</li><br>
+	<li>
+		<b>A Survey on Dialogue Systems: Recent Advances and New Frontiers.</b><br>
+		<i>Hongshen Chen, Xiaorui Liu, Dawei Yin and Jiliang Tang. </i><br>
+		SIGKDD Explorations, 2018.<br>
+		<a href="https://arxiv.org/abs/1711.01731"><div class="color-button">pdf</div></a>
+		<div class="color-button" onclick="isHidden('2018kdd_exp_bibtex')">bibtex</div>
+		<div class="bibtex-box" id="2018kdd_exp_bibtex" style="display:none">
+		@article{chen2017survey, <br>
+		&nbsp;&nbsp; title={A survey on dialogue systems: Recent advances and new frontiers}, <br>
+		&nbsp;&nbsp; author={Chen, Hongshen and Liu, Xiaorui and Yin, Dawei and Tang, Jiliang}, <br>
+		&nbsp;&nbsp; journal={Acm Sigkdd Explorations Newsletter}, <br>
+		&nbsp;&nbsp; volume={19}, <br>
+		&nbsp;&nbsp; number={2}, <br>
+		&nbsp;&nbsp; pages={25--35}, <br>
+		&nbsp;&nbsp; year={2017}, <br>
+		&nbsp;&nbsp; publisher={ACM} <br>
+		}
+		</div>
+	</li><br>
+	
 </ul>
 
 <!--
