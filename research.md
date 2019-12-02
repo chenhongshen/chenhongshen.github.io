@@ -32,8 +32,8 @@ Describe your research interests here.
 		In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP 2019), Hong Kong, China, Nov. 2019.<br>
 		<a href="https://www.aclweb.org/anthology/D19-1188/"><div class="color-button">pdf</div></a>
 		<div class="color-button" onclick="isHidden('2019emnlp_cai_bibtex')">bibtex</div>
-		<div class="bibtex-box" id="2019emnlp_cai_bibtex" style="display:none">
 		<a href="https://github.com/hengyicai/AdaND"><div class="color-button">code</div></a>
+		<div class="bibtex-box" id="2019emnlp_cai_bibtex" style="display:none">
 		@inproceedings{cai-etal-2019-adaptive, <br>
 		&nbsp;&nbsp; title = "Adaptive Parameterization for Neural Dialogue Generation", <br>
 		&nbsp;&nbsp; author = "Cai, Hengyi  and Chen, Hongshen  and Zhang, Cheng  and Song, Yonghao  and Zhao, Xiaofang  and Yin, Dawei", <br>
