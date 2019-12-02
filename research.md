@@ -77,14 +77,6 @@ Describe your research interests here.
 		<a href="/research/papers/2018www.pdf"><div class="color-button">pdf</div></a><a href="/research/papers/2018www.cite.txt"><div class="color-button">cite</div></a><a href="https://github.com/chenhongshen/HVMN"><div class="color-button">code&corpus</div></a>
 	</li><br>
 	<li>
-		<b>A Dynamic Product-aware Learning Model for E-commerce Query Intent Understanding.</b><br>
-		<i>Jiashu Zhao, Hongshen Chen and Dawei Yin.</i><br>
-		In Proceedings of the 28th ACM Conference on Information and Knowledge Management (CIKM 2019), Beijing, China, Oct. 2019.<br>
-		<!--
-		<a href=""><div class="color-button">pdf</div></a><a href=""><div class="color-button">cite</div></a><a href=""><div class="color-button">code</div></a>
-		-->
-	</li><br>
-	<li>
 		<b>A Survey on Dialogue Systems: Recent Advances and New Frontiers.</b><br>
 		<i>Hongshen Chen, Xiaorui Liu, Dawei Yin and Jiliang Tang. </i><br>
 		SIGKDD Explorations, 2018.<br>
