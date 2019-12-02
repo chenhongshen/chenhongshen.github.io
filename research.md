@@ -146,44 +146,6 @@ Describe your research interests here.
 		&nbsp;&nbsp; url       = {https://doi.org/10.24963/ijcai.2018/637} <br>
 		}
 	</li><br>
-	<li>
-		<b>Hierarchical Variational Memory Network for Dialogue Generation. </b><br>
-		<i>Hongshen Chen, Zhaochun Ren, Jiliang Tang, Yihong Eric Zhao and Dawei Yin.</i><br>
-		WWW,2018.<br>
-		<a href="/research/papers/2018www.pdf"><div class="color-button">pdf</div></a>
-		<div class="color-button" onclick="isHidden('2018www_bibtex')">bibtex</div>
-		<a href="https://github.com/chenhongshen/HVMN"><div class="color-button">code&corpus</div></a>
-		<div class="bibtex-box" id="2018www_bibtex" style="display:none">
-		@inproceedings{chen2018hierarchical, <br>
-		&nbsp;&nbsp; title={Hierarchical variational memory network for dialogue generation}, <br>
-		&nbsp;&nbsp; author={Chen, Hongshen and Ren, Zhaochun and Tang, Jiliang and Zhao, Yihong Eric and Yin, Dawei}, <br>
-		&nbsp;&nbsp; booktitle={Proceedings of the 2018 World Wide Web Conference}, <br>
-		&nbsp;&nbsp; pages={1653--1662}, <br>
-		&nbsp;&nbsp; year={2018}, <br>
-		&nbsp;&nbsp; organization={International World Wide Web Conferences Steering Committee} <br>
-		}
-		</div>
-	</li><br>
-	<li>
-		<b>A Survey on Dialogue Systems: Recent Advances and New Frontiers.</b><br>
-		<i>Hongshen Chen, Xiaorui Liu, Dawei Yin and Jiliang Tang. </i><br>
-		SIGKDD Explorations, 2018.<br>
-		<a href="https://arxiv.org/abs/1711.01731"><div class="color-button">pdf</div></a>
-		<div class="color-button" onclick="isHidden('2018kdd_exp_bibtex')">bibtex</div>
-		<div class="bibtex-box" id="2018kdd_exp_bibtex" style="display:none">
-		@article{chen2017survey, <br>
-		&nbsp;&nbsp; title={A survey on dialogue systems: Recent advances and new frontiers}, <br>
-		&nbsp;&nbsp; author={Chen, Hongshen and Liu, Xiaorui and Yin, Dawei and Tang, Jiliang}, <br>
-		&nbsp;&nbsp; journal={Acm Sigkdd Explorations Newsletter}, <br>
-		&nbsp;&nbsp; volume={19}, <br>
-		&nbsp;&nbsp; number={2}, <br>
-		&nbsp;&nbsp; pages={25--35}, <br>
-		&nbsp;&nbsp; year={2017}, <br>
-		&nbsp;&nbsp; publisher={ACM} <br>
-		}
-		</div>
-	</li><br>
-	
 </ul>
 
 <!--
