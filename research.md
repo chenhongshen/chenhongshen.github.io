@@ -49,6 +49,84 @@ Describe your research interests here.
 		}
 		</div>
 	</li><br>
+	<li>
+		<b>A Dynamic Product-aware Learning Model for E-commerce Query Intent Understanding.</b><br>
+		<i>Jiashu Zhao, Hongshen Chen and Dawei Yin.</i><br>
+		In Proceedings of the 28th ACM Conference on Information and Knowledge Management (CIKM 2019), Beijing, China, Oct. 2019.<br>
+		<a href="/research/papers/2019cikm_zhao.pdf"><div class="color-button">pdf</div></a>
+		<div class="color-button" onclick="isHidden('2019cikm_zhao_bibtex')">bibtex</div>
+		<div class="bibtex-box" id="2019cikm_zhao_bibtex" style="display:none">
+		@inproceedings{zhao2019dynamic, <br>
+		&nbsp;&nbsp; title={A Dynamic Product-aware Learning Model for E-commerce Query Intent Understanding}, <br>
+		&nbsp;&nbsp; author={Zhao, Jiashu and Chen, Hongshen and Yin, Dawei}, <br>
+		&nbsp;&nbsp; booktitle={Proceedings of the 28th ACM International Conference on Information and Knowledge Management}, <br>
+		&nbsp;&nbsp; pages={1843--1852}, <br>
+		&nbsp;&nbsp; year={2019}, <br>
+		&nbsp;&nbsp; organization={ACM} <br>
+		}
+		</div>
+	</li><br>
+	<li>
+		<b>Fine-Grained Product Categorization in E-commerce.</b><br>
+		<i>Hongshen Chen, Jiashu Zhao and Dawei Yin. </i><br>
+		In Proceedings of the 28th ACM Conference on Information and Knowledge Management (CIKM 2019), Beijing, China, Oct. 2019.<br>
+		<a href="/research/papers/2019cikm_chen.pdf"><div class="color-button">pdf</div></a>
+		<div class="color-button" onclick="isHidden('2019cikm_chen_bibtex')">bibtex</div>
+		<div class="bibtex-box" id="2019cikm_chen_bibtex" style="display:none">
+		@inproceedings{chen2019fine, <br>
+		&nbsp;&nbsp; title={Fine-Grained Product Categorization in E-commerce}, <br>
+		&nbsp;&nbsp; author={Chen, Hongshen and Zhao, Jiashu and Yin, Dawei}, <br>
+		&nbsp;&nbsp; booktitle={Proceedings of the 28th ACM International Conference on Information and Knowledge Management}, <br>
+		&nbsp;&nbsp; pages={2349--2352}, <br>
+		&nbsp;&nbsp; year={2019}, <br>
+		&nbsp;&nbsp; organization={ACM} <br>
+		}
+		</div>
+	</li><br>
+	<li>
+		<b>Explicit State Tracking with Semi-Supervision for Neural Dialogue Generation.</b><br>
+		<i>Xisen Jin, Wenqiang Lei, Zhaochun Ren, Hongshen Chen, Shangsong Liang, Yihong Eric Zhao, Dawei Yin.</i><br>
+		In Proceedings of the 27th ACM Conference on Information and Knowledge Management (CIKM 2018), Turin, Italy, Oct. 2018.<br>
+		<a href="https://arxiv.org/abs/1808.10596"><div class="color-button">pdf</div></a>
+		<div class="color-button" onclick="isHidden('2018cikm_jin_bibtex')">bibtex</div>
+		<div class="bibtex-box" id="2018cikm_jin_bibtex" style="display:none">
+		@inproceedings{jin2018explicit, <br>
+		&nbsp;&nbsp; title={Explicit State Tracking with Semi-Supervisionfor Neural Dialogue Generation}, <br>
+		&nbsp;&nbsp; author={Jin, Xisen and Lei, Wenqiang and Ren, Zhaochun and Chen, Hongshen and Liang, Shangsong and Zhao, Yihong and Yin, Dawei}, <br>
+		&nbsp;&nbsp; booktitle={Proceedings of the 27th ACM International Conference on Information and Knowledge Management}, <br>
+		&nbsp;&nbsp; pages={1403--1412}, <br>
+		&nbsp;&nbsp; year={2018}, <br>
+		&nbsp;&nbsp; organization={ACM} <br>
+		}
+		</div>
+	</li><br>
+	<li>
+		<b>Knowledge Diffusion for Neural Dialogue Generation.</b><br>
+		<i>Liu Shuman, Hongshen Chen, Zhaochun Ren, Yang Feng, Qun Liu and Dawei Yin.</i><br>
+		ACL 2018, Melbourne, Australia, 2018.<br>
+		<a href="https://www.aclweb.org/anthology/P18-1138/"><div class="color-button">pdf</div></a>
+		<div class="color-button" onclick="isHidden('2018acl_liu_bibtex')">bibtex</div>
+		<a href="https://github.com/liushuman/neural-knowledge-diffusion"><div class="color-button">corpus</div></a>
+		<div class="bibtex-box" id="2018acl_liu_bibtex" style="display:none">
+		@inproceedings{liu-etal-2018-knowledge,
+		&nbsp;&nbsp; title = "Knowledge Diffusion for Neural Dialogue Generation", <br>
+		&nbsp;&nbsp; author = "Liu, Shuman  and <br>
+		&nbsp;&nbsp; Chen, Hongshen  and <br>
+		&nbsp;&nbsp; Ren, Zhaochun  and <br>
+		&nbsp;&nbsp; Feng, Yang  and <br>
+		&nbsp;&nbsp; Liu, Qun  and <br>
+		&nbsp;&nbsp; Yin, Dawei", <br>
+		&nbsp;&nbsp; booktitle = "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)", <br>
+		&nbsp;&nbsp; month = jul, <br>
+		&nbsp;&nbsp; year = "2018", <br>
+		&nbsp;&nbsp; address = "Melbourne, Australia", <br>
+		&nbsp;&nbsp; publisher = "Association for Computational Linguistics", <br>
+		&nbsp;&nbsp; url = "https://www.aclweb.org/anthology/P18-1138", <br>
+		&nbsp;&nbsp; doi = "10.18653/v1/P18-1138", <br>
+		&nbsp;&nbsp; pages = "1489--1498", <br>
+		&nbsp;&nbsp; abstract = "End-to-end neural dialogue generation has shown promising results recently, but it does not employ knowledge to guide the generation and hence tends to generate short, general, and meaningless responses. In this paper, we propose a neural knowledge diffusion (NKD) model to introduce knowledge into dialogue generation. This method can not only match the relevant facts for the input utterance but diffuse them to similar entities. With the help of facts matching and entity diffusion, the neural dialogue generation is augmented with the ability of convergent and divergent thinking over the knowledge base. Our empirical study on a real-world dataset prove that our model is capable of generating meaningful, diverse and natural responses for both factoid-questions and knowledge grounded chi-chats. The experiment results also show that our model outperforms competitive baseline models significantly.", <br>
+		}
+	</li><br>
 </ul>
 
 <!--
