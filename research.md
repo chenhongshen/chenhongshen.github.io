@@ -126,6 +126,7 @@ Describe your research interests here.
 		&nbsp;&nbsp; pages = "1489--1498", <br>
 		&nbsp;&nbsp; abstract = "End-to-end neural dialogue generation has shown promising results recently, but it does not employ knowledge to guide the generation and hence tends to generate short, general, and meaningless responses. In this paper, we propose a neural knowledge diffusion (NKD) model to introduce knowledge into dialogue generation. This method can not only match the relevant facts for the input utterance but diffuse them to similar entities. With the help of facts matching and entity diffusion, the neural dialogue generation is augmented with the ability of convergent and divergent thinking over the knowledge base. Our empirical study on a real-world dataset prove that our model is capable of generating meaningful, diverse and natural responses for both factoid-questions and knowledge grounded chi-chats. The experiment results also show that our model outperforms competitive baseline models significantly.", <br>
 		}
+		</div>
 	</li><br>
 	<li>
 		<b>Learning Tag Dependencies for Sequence Tagging.</b><br>
@@ -145,6 +146,108 @@ Describe your research interests here.
 		&nbsp;&nbsp; doi       = {10.24963/ijcai.2018/637}, <br>
 		&nbsp;&nbsp; url       = {https://doi.org/10.24963/ijcai.2018/637} <br>
 		}
+		</div>
+	</li><br>
+	<li>
+		<b>Hierarchical Variational Memory Network for Dialogue Generation. </b><br>
+		<i>Hongshen Chen, Zhaochun Ren, Jiliang Tang, Yihong Eric Zhao and Dawei Yin.</i><br>
+		WWW,2018.<br>
+		<a href="/research/papers/2018www.pdf"><div class="color-button">pdf</div></a>
+		<div class="color-button" onclick="isHidden('2018www_bibtex')">bibtex</div>
+		<a href="https://github.com/chenhongshen/HVMN"><div class="color-button">code&corpus</div></a>
+		<div class="bibtex-box" id="2018www_bibtex" style="display:none">
+		@inproceedings{chen2018hierarchical, <br>
+		&nbsp;&nbsp; title={Hierarchical variational memory network for dialogue generation}, <br>
+		&nbsp;&nbsp; author={Chen, Hongshen and Ren, Zhaochun and Tang, Jiliang and Zhao, Yihong Eric and Yin, Dawei}, <br>
+		&nbsp;&nbsp; booktitle={Proceedings of the 2018 World Wide Web Conference}, <br>
+		&nbsp;&nbsp; pages={1653--1662}, <br>
+		&nbsp;&nbsp; year={2018}, <br>
+		&nbsp;&nbsp; organization={International World Wide Web Conferences Steering Committee} <br>
+		}
+		</div>
+	</li><br>
+	<li>
+		<b>A Survey on Dialogue Systems: Recent Advances and New Frontiers.</b><br>
+		<i>Hongshen Chen, Xiaorui Liu, Dawei Yin and Jiliang Tang. </i><br>
+		SIGKDD Explorations, 2018.<br>
+		<a href="https://arxiv.org/abs/1711.01731"><div class="color-button">pdf</div></a>
+		<div class="color-button" onclick="isHidden('2018kdd_exp_bibtex')">bibtex</div>
+		<div class="bibtex-box" id="2018kdd_exp_bibtex" style="display:none">
+		@article{chen2017survey, <br>
+		&nbsp;&nbsp; title={A survey on dialogue systems: Recent advances and new frontiers}, <br>
+		&nbsp;&nbsp; author={Chen, Hongshen and Liu, Xiaorui and Yin, Dawei and Tang, Jiliang}, <br>
+		&nbsp;&nbsp; journal={Acm Sigkdd Explorations Newsletter}, <br>
+		&nbsp;&nbsp; volume={19}, <br>
+		&nbsp;&nbsp; number={2}, <br>
+		&nbsp;&nbsp; pages={25--35}, <br>
+		&nbsp;&nbsp; year={2017}, <br>
+		&nbsp;&nbsp; publisher={ACM} <br>
+		}
+		</div>
+	</li><br>
+	<li>
+		<b>Learning dependency edge transfer rule representation using encoder-decoder (in Chinese).</b><br>
+		<i>Hongshen Chen, Qun Liu.</i><br>
+		Scientia Sinica Informationis, 2017.<br>
+		<!--
+		<a href=""><div class="color-button">pdf</div></a><a href=""><div class="color-button">cite</div></a><a href=""><div class="color-button">code</div></a>
+		-->
+	</li><br>
+	<li>
+		<b>Neural Network for Heterogeneous Annotations.</b><br>
+		<i>Hongshen Chen, Yue Zhang, Qun Liu.</i><br>
+		EMNLP, 2016.<br>
+		<a href="https://www.aclweb.org/anthology/D16-1070/"><div class="color-button">pdf</div></a>
+		<div class="color-button" onclick="isHidden('2016emnlp_bibtex')">bibtex</div>
+		<a href="https://github.com/chenhongshen/NNHetSeq"><div class="color-button">code&corpus</div></a>
+		<div class="bibtex-box" id="2016emnlp_bibtex" style="display:none">
+		@inproceedings{chen-etal-2016-neural, <br>
+		&nbsp;&nbsp; title = "Neural Network for Heterogeneous Annotations", <br>
+		&nbsp;&nbsp; author = "Chen, Hongshen  and <br>
+		&nbsp;&nbsp; Zhang, Yue  and <br>
+		&nbsp;&nbsp; Liu, Qun", <br>
+		&nbsp;&nbsp; booktitle = "Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing", <br>
+		&nbsp;&nbsp; month = nov, <br>
+		&nbsp;&nbsp; year = "2016", <br>
+		&nbsp;&nbsp; address = "Austin, Texas", <br>
+		&nbsp;&nbsp; publisher = "Association for Computational Linguistics", <br>
+		&nbsp;&nbsp; url = "https://www.aclweb.org/anthology/D16-1070", <br>
+		&nbsp;&nbsp; doi = "10.18653/v1/D16-1070", <br>
+		&nbsp;&nbsp; pages = "731--741", <br>
+		}
+		</div>
+	</li><br>
+	<li>
+		<b>A Dependency Edge Transfer Translation Rule Generator.</b><br>
+		<i>Hongshen Chen, Qun Liu. </i><br>
+		CCL, 2016.<br>
+		<!--
+		<a href=""><div class="color-button">pdf</div></a><a href=""><div class="color-button">cite</div></a><a href=""><div class="color-button">code</div></a>
+		-->
+	</li><br>
+	<li>
+		<b>A Dependency Edge-based Transfer Model for Statistical Machine Translation. </b><br>
+		<i>Hongshen Chen, Jun Xie, Fandong Meng, Weibin Jiang, Qun Liu. </i><br>
+		COLING, 2014.<br>
+		<a href="https://www.aclweb.org/anthology/C14-1104/"><div class="color-button">pdf</div></a>
+		<div class="color-button" onclick="isHidden('2014coling_bibtex')">bibtex</div>
+		<div class="bibtex-box" id="2014coling_bibtex" style="display:none">
+		@inproceedings{chen-etal-2014-dependency, <br>
+		&nbsp;&nbsp; title = "A Dependency Edge-based Transfer Model for Statistical Machine Translation", <br>
+		&nbsp;&nbsp; author = "Chen, Hongshen  and <br>
+		&nbsp;&nbsp; Xie, Jun  and <br>
+		&nbsp;&nbsp; Meng, Fandong  and <br>
+		&nbsp;&nbsp; Jiang, Wenbin  and <br>
+		&nbsp;&nbsp; Liu, Qun", <br>
+		&nbsp;&nbsp; booktitle = "Proceedings of {COLING} 2014, the 25th International Conference on Computational Linguistics: Technical Papers", <br>
+		&nbsp;&nbsp; month = aug, <br>
+		&nbsp;&nbsp; year = "2014", <br>
+		&nbsp;&nbsp; address = "Dublin, Ireland", <br>
+		&nbsp;&nbsp; publisher = "Dublin City University and Association for Computational Linguistics", <br>
+		&nbsp;&nbsp; url = "https://www.aclweb.org/anthology/C14-1104", <br>
+		&nbsp;&nbsp; pages = "1103--1113", <br>
+		}
+		</div>
 	</li><br>
 </ul>
 
