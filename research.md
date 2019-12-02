@@ -38,14 +38,25 @@ Describe your research interests here.
 		<b>A Dynamic Product-aware Learning Model for E-commerce Query Intent Understanding.</b><br>
 		<i>Jiashu Zhao, Hongshen Chen and Dawei Yin.</i><br>
 		In Proceedings of the 28th ACM Conference on Information and Knowledge Management (CIKM 2019), Beijing, China, Oct. 2019.<br>
-		<a href="/research/papers/2019cikm_zhao.pdf"><div class="color-button">pdf</div></a><a href="/research/papers/2019cikm_zhao.cite.txt"><div class="color-button">cite</div></a><a href=""><div class="color-button">code</div></a>
+		<a href="/research/papers/2019cikm_zhao.pdf"><div class="color-button">pdf</div></a>
+		<div class="color-button" onclick="isHidden('2019cikm_zhao_bibtex')">bibtex</div></a>
+		<div class="bibtex-box" id="2019cikm_zhao_bibtex" style="display:block">
+		@inproceedings{zhao2019dynamic, <br>
+		&nbsp;&nbsp; title={A Dynamic Product-aware Learning Model for E-commerce Query Intent Understanding}, <br>
+		&nbsp;&nbsp; author={Zhao, Jiashu and Chen, Hongshen and Yin, Dawei}, <br>
+		&nbsp;&nbsp; booktitle={Proceedings of the 28th ACM International Conference on Information and Knowledge Management}, <br>
+		&nbsp;&nbsp; pages={1843--1852}, <br>
+		&nbsp;&nbsp; year={2019}, <br>
+		&nbsp;&nbsp; organization={ACM} <br>
+		}
+		</div>
 	</li><br>
 	<li>
 		<b>Fine-Grained Product Categorization in E-commerce.</b><br>
 		<i>Hongshen Chen, Jiashu Zhao and Dawei Yin. </i><br>
 		In Proceedings of the 28th ACM Conference on Information and Knowledge Management (CIKM 2019), Beijing, China, Oct. 2019.<br>
 		<a href="/research/papers/2019cikm_chen.pdf"><div class="color-button">pdf</div></a>
-		<div class="color-button" onclick="isHidden('2019cikm_chen_bibtex')">cite</div>
+		<div class="color-button" onclick="isHidden('2019cikm_chen_bibtex')">bibtex</div>
 		<div class="bibtex-box" id="2019cikm_chen_bibtex" style="display:block">
 		@inproceedings{chen2019fine, <br />
 		&nbsp;&nbsp; title={Fine-Grained Product Categorization in E-commerce}, <br />
