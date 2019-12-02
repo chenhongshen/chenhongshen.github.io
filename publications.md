@@ -110,12 +110,7 @@ Describe your research interests here.
 		<div class="bibtex-box" id="2018acl_liu_bibtex" style="display:none">
 		@inproceedings{liu-etal-2018-knowledge,
 		&nbsp;&nbsp; title = "Knowledge Diffusion for Neural Dialogue Generation", <br>
-		&nbsp;&nbsp; author = "Liu, Shuman  and <br>
-		&nbsp;&nbsp; Chen, Hongshen  and <br>
-		&nbsp;&nbsp; Ren, Zhaochun  and <br>
-		&nbsp;&nbsp; Feng, Yang  and <br>
-		&nbsp;&nbsp; Liu, Qun  and <br>
-		&nbsp;&nbsp; Yin, Dawei", <br>
+		&nbsp;&nbsp; author = "Liu, Shuman  and Chen, Hongshen  and Ren, Zhaochun  and Feng, Yang  and Liu, Qun  and Yin, Dawei", <br>
 		&nbsp;&nbsp; booktitle = "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)", <br>
 		&nbsp;&nbsp; month = jul, <br>
 		&nbsp;&nbsp; year = "2018", <br>
