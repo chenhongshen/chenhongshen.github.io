@@ -2,6 +2,8 @@
 layout: page
 title: test
 permalink: /publications/papers/test/
+sitemap:
+  exclude: 'yes'
 ---
 
 {% include image.html url="/images/chenhongshen.jpg" caption="Hongshen Chen" width=300 align="right" %}
