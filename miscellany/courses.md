@@ -1,5 +1,7 @@
 ---
 layout: page
+sitemap:
+  exclude: 'yes'
 title: Key Courses Undertaken
 permalink: /miscellany/courses/
 ---

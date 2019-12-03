@@ -1,5 +1,7 @@
 ---
 layout: page
+sitemap:
+  exclude: 'yes'
 title: Extracurriculars
 permalink: /miscellany/extracurricular/
 ---
