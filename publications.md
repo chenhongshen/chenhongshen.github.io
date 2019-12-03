@@ -68,8 +68,7 @@ Describe your research interests here.
 			&nbsp;&nbsp; publisher = "Association for Computational Linguistics", <br>
 			&nbsp;&nbsp; url = "https://www.aclweb.org/anthology/D19-1188", <br>
 			&nbsp;&nbsp; doi = "10.18653/v1/D19-1188", <br>
-			&nbsp;&nbsp; pages = "1793--1802", <br>
-			&nbsp;&nbsp; abstract = "" <br>
+			&nbsp;&nbsp; pages = "1793--1802" <br>
 			}
 		</div>
 	</li><br>
