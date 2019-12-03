@@ -1,5 +1,8 @@
 ---
 layout: page
+sitemap:
+	priority: 0.8
+	changefreq: always
 permalink: /publications/
 title: Publications
 ---
