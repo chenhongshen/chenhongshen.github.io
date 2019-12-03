@@ -16,19 +16,29 @@ Describe your research interests here.
 		In Proceedings of the 34th AAAI Conference on Artificial Intelligence (AAAI 2020), New York, USA.<br>
 		<div class="color-button" onclick="isHidden('2019aaai_cai_abstract')">motivation</div>
 		<div class="abstract-box" id="2019aaai_cai_abstract" style="display:none">
-		<b>Abstract</b>:  Current state-of-the-art neural dialogue systems are mainly data-driven and are trained on human-generated responses. However, due to the subjectivity and open-ended nature of human conversations, the complexity of training dialogues varies greatly.  The noise and uneven complexity of query-response pairs impede the learning efficiency and effects of the neural dialogue generation models.  What is more, so far, there are no unified dialogue complexity measurements, and the dialogue complexity embodies multiple aspects of attributes---specificity, repetitiveness, relevance, etc. Inspired by human behaviors of learning to converse, where children learn from easy dialogues to complex ones and dynamically adjust their learning progress, in this paper, we first analyze five dialogue attributes to measure the dialogue complexity in multiple perspectives on three publicly available corpora. Then, we propose an adaptive multi-curricula learning framework to schedule a committee of the organized curricula. The framework is established upon the reinforcement learning paradigm, which automatically chooses different curricula at the evolving learning process according to the learning status of the neural dialogue generation model. Extensive experiments conducted on five state-of-the-art models demonstrate its learning efficiency and effectiveness with respect to 13 automatic evaluation metrics and human judgments.<br>
-		<b>Motivation</b>: <br>
-		<ul>
-		<li>Training data for neural dialogue models are quite noisy.</li>
-		<li>Learn from clean and easy samples first, and then gradually increase the data complexity. (The spirits of curriculum learning)</li>
-		<li>Orginze the curriculum in terms of multiple empirical attributes---specificity, repetitiveness, relevance, etc. </li>
-		</ul>
+			<b>Abstract</b>:  Current state-of-the-art neural dialogue systems are mainly data-driven and are trained on human-generated responses. However, due to the subjectivity and open-ended nature of human conversations, the complexity of training dialogues varies greatly.  The noise and uneven complexity of query-response pairs impede the learning efficiency and effects of the neural dialogue generation models.  What is more, so far, there are no unified dialogue complexity measurements, and the dialogue complexity embodies multiple aspects of attributes---specificity, repetitiveness, relevance, etc. Inspired by human behaviors of learning to converse, where children learn from easy dialogues to complex ones and dynamically adjust their learning progress, in this paper, we first analyze five dialogue attributes to measure the dialogue complexity in multiple perspectives on three publicly available corpora. Then, we propose an adaptive multi-curricula learning framework to schedule a committee of the organized curricula. The framework is established upon the reinforcement learning paradigm, which automatically chooses different curricula at the evolving learning process according to the learning status of the neural dialogue generation model. Extensive experiments conducted on five state-of-the-art models demonstrate its learning efficiency and effectiveness with respect to 13 automatic evaluation metrics and human judgments.<br>
+			<b>Motivation</b>: <br>
+			<ul>
+			<li>Training data for neural dialogue models are quite noisy.</li>
+			<li>Learn from clean and easy samples first, and then gradually increase the data complexity. (The spirits of curriculum learning)</li>
+			<li>Orginze the curriculum in terms of multiple empirical attributes---specificity, repetitiveness, relevance, etc. </li>
+			</ul>
 		</div>
 	</li><br>
 	<li>
 		<b>Posterior-GAN: Towards Informative and Coherent Response Generation with Posterior Generative Adversarial Network.  </b><br>
 		<i>Shaoxiong Feng, Hongshen Chen, Kan Li, Dawei Yin. </i><br>
 		In Proceedings of the 34th AAAI Conference on Artificial Intelligence (AAAI 2020), New York, USA.<br>
+		<div class="color-button" onclick="isHidden('2019aaai_feng_abstract')">motivation</div>
+		<div class="abstract-box" id="2019aaai_feng_abstract" style="display:none">
+			<b>Abstract</b>: Neural conversational models learn to generate responses by taking into account the dialog history. These models are typically optimized over the *query-response* pairs with a maximum likelihood estimation objective. However, the query-response tuples are naturally loosely coupled, and there exist multiple responses that can respond to a given query, which leads the conversational model learning burdensome. Besides, the general dull response problem is even worsened when the model is confronted with meaningless response training instances. Intuitively, a high-quality response not only responds to the given query but also links up to the future conversations, in this paper, we leverage the *query-response-future turn* triples to induce the generated responses that consider both the given context and the future conversations. To facilitate the modeling of these triples, we further propose a novel encoder-decoder based generative adversarial learning framework, Posterior Generative Adversarial Network (Posterior-GAN), which consists of a forward and a backward generative discriminator to cooperatively encourage the generated response to be informative and coherent by two complementary assessment perspectives. Experimental results demonstrate that our method effectively boosts the informativeness and coherence of the generated response on both automatic and human evaluation, which verifies the advantages of considering two assessment perspectives.<br>
+			<b>Motivation</b>: <br>
+			<ul>
+			<li>A high-quality response not only responds to the given query but also links up to the future conversations.</li>
+			<li>Leverage the *query-response-future turn* triples for training instead of *query-response* pairs. </li>
+			<li>Posterior-GAN enables triples training and improves the informativeness and coherence. </li>
+			</ul>
+		</div>
 	</li><br>
 	<li>
 		<b>Adaptive Parameterization for Neural Dialogue Generation. </b><br>
