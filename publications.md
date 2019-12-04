@@ -113,7 +113,7 @@ Describe your research interests here.
 			<b>Motivation</b>: <br>
 			<ul>
 			<li>Product categories can be recognized from produc contents and classified from product category vocabulary.</li>
-			<li>Instead of a manual labelling corpus, large scale corpus with weak labels can be mined from search logs </li>
+			<li>Instead of a manual labelling corpus, large scale corpus with weak labels can be mined from search logs. </li>
 			</ul>
 		</div>
 		<div class="bibtex-box" id="2019cikm_chen_bibtex" style="display:none">
