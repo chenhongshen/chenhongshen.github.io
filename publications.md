@@ -24,7 +24,7 @@ Describe your research interests here.
 			<ul>
 			<li>Training data for neural dialogue models are quite noisy.</li>
 			<li>Learn from clean and easy samples first, and then gradually increase the data complexity. (The spirits of curriculum learning)</li>
-			<li>Orginze the curriculum in terms of multiple empirical attributes---specificity, repetitiveness, relevance, etc. </li>
+			<li>Organize the curriculum in terms of multiple empirical attributes---specificity, repetitiveness, relevance, etc. </li>
 			</ul>
 		</div>
 	</li><br>
