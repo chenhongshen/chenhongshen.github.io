@@ -14,6 +14,23 @@ Describe your research interests here.
 <h2>Publications</h2>
 <ul>
 	<li>
+		<b>Data Manipulation: Towards Effective Instance Learning for Neural Dialogue Generation via Learning to Augment and Reweight. </b><br>
+		<i>Hengyi Cai, Hongshen Chen, Yonghao Song, Cheng Zhang, Xiaofang Zhao, Dawei Yin </i><br>
+		In Proceedings of the 58th Annual Conference of the Association for Computational Linguistics(ACL 2020), Seattle, Washington.<br>
+		<div class="color-button" onclick="isHidden('2020aaai_cai_abstract')">motivation</div>
+		<!--<a href="/publications/papers/2020aaai_cai.pdf"><div class="color-button">pdf</div></a> -->
+		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div> -->
+		<div class="abstract-box" id="2020aaai_cai_abstract" style="display:none">
+			<b>Abstract</b>: Current state-of-the-art neural dialogue models learn from human conversations following the data-driven paradigm. As such, a reliable training corpus is the crux of building a robust and well-behaved dialogue model. However, due to the open-ended nature of human conversations, the quality of user-generated training data varies greatly, and effective training samples are typically insufficient while noisy samples frequently appear. This impedes the learning of those data-driven neural dialogue models. Therefore, effective dialogue learning requires not only more reliable learning samples, but also fewer noisy samples. In this paper, we propose a data manipulation framework to proactively reshape the data distribution towards reliable samples by augmenting and highlighting effective learning samples as well as reducing the effect of inefficient samples simultaneously. In particular, the data manipulation model selectively augments the training samples and assigns an importance weight to each instance to reform the training data. Note that, the proposed data manipulation framework is fully data-driven and learnable. It not only manipulates training samples to optimize the dialogue generation model, but also learns to increase its manipulation skills through gradient descent with validation samples. Extensive experiments show that our framework can improve the dialogue generation performance with respect to 13 automatic evaluation metrics and human judgments.<br>
+			<b>Motivation</b>: <br>
+			<ul>
+			<li>Training data for neural dialogue models is quite noisy.</li>
+			<li>Enable the model learning to choose and modify the training data by itself.</li>
+			<li>Choose better learning instances, and infer other instances from them. </li>
+			</ul>
+		</div>
+	</li><br>
+	<li>
 		<b>Learning from Easy to Complex: Adaptive Multi-curricula Learning for Neural Dialogue Generation. </b><br>
 		<i>Hengyi Cai, Hongshen Chen, Cheng Zhang, Yonghao Song, Xiaofang Zhao, Yangxi Li, Dongsheng Duan, Dawei Yin. </i><br>
 		In Proceedings of the 34th AAAI Conference on Artificial Intelligence (AAAI 2020), New York, USA.<br>
@@ -24,7 +41,7 @@ Describe your research interests here.
 			<b>Abstract</b>:  Current state-of-the-art neural dialogue systems are mainly data-driven and are trained on human-generated responses. However, due to the subjectivity and open-ended nature of human conversations, the complexity of training dialogues varies greatly.  The noise and uneven complexity of query-response pairs impede the learning efficiency and effects of the neural dialogue generation models.  What is more, so far, there are no unified dialogue complexity measurements, and the dialogue complexity embodies multiple aspects of attributes---specificity, repetitiveness, relevance, etc. Inspired by human behaviors of learning to converse, where children learn from easy dialogues to complex ones and dynamically adjust their learning progress, in this paper, we first analyze five dialogue attributes to measure the dialogue complexity in multiple perspectives on three publicly available corpora. Then, we propose an adaptive multi-curricula learning framework to schedule a committee of the organized curricula. The framework is established upon the reinforcement learning paradigm, which automatically chooses different curricula at the evolving learning process according to the learning status of the neural dialogue generation model. Extensive experiments conducted on five state-of-the-art models demonstrate its learning efficiency and effectiveness with respect to 13 automatic evaluation metrics and human judgments.<br>
 			<b>Motivation</b>: <br>
 			<ul>
-			<li>Training data for neural dialogue models are quite noisy.</li>
+			<li>Training data for neural dialogue models is quite noisy.</li>
 			<li>Learn from clean and easy samples first, and then gradually increase the data complexity. (The spirits of curriculum learning)</li>
 			<li>Organize the curriculum in terms of multiple empirical attributes---specificity, repetitiveness, relevance, etc. </li>
 			</ul>
