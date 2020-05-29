@@ -14,13 +14,46 @@ Describe your research interests here.
 <h2>Publications</h2>
 <ul>
 	<li>
+		<b>User-Inspired Posterior Network for Recommendation Reason Generation. </b><br>
+		<i>Haolan Zhan, Hainan Zhang, Hongshen Chen, Lei Shen, Yanyan Lan, Zhuoye Ding and Dawei Yin. </i><br>
+		In Proceedings of the 43rd Annual ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2020)<br>
+		<div class="color-button" onclick="isHidden('2020sigir_haolan_abstract')">motivation</div>
+		<!--<a href="/publications/papers/2020aaai_cai.pdf"><div class="color-button">pdf</div></a> -->
+		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div> -->
+		<div class="abstract-box" id="2020sigir_haolan_abstract" style="display:none">
+			<b>Abstract</b>: Recommendation reason generation, aiming at showing the selling points of products for customers, plays a vital role in attracting customers' attention as well as improving user experience. A simple and effective way is to extract keywords directly from the knowledge-base of products, i.e., attributes or title, as the recommendation reason. However, generating recommendation reason from product knowledge doesn't naturally respond to users' interests. Fortunately, on some E-commerce websites, there exists more and more user-generated content (user-content for short), i.e., product question-answering (QA) discussions, which reflect user-cared aspects. Therefore, in this paper, we consider generating the recommendation reason by taking into account not only the product attributes but also the customer-generated product QA discussions. In reality, adequate user-content is only possible for the most popular commodities, whereas large sums of long-tail products or new products cannot gather a sufficient number of user-content. To tackle this problem, we propose a user-inspired  multi-source posterior transformer (MSPT), which induces the model reflecting the users' interests with a posterior multiple QA discussions module, and generating recommendation reasons containing the product attributes as well as the user-cared aspects. Experimental results show that our model is superior to traditional generative models. Additionally, the analysis also shows that our model can focus more on the user-cared aspects than baselines.<br>
+		</div>
+	</li><br>
+	<li>
+		<b>Modeling Topical Relevance for Multi-Turn Dialogue Generation  </b><br>
+		<i>Hainan Zhang, Yanyan Lan, Liang Pang, Hongshen Chen, Zhuoye Ding, Dawei Yin. </i><br>
+		In Proceedings of the 29th International Joint Conference on Artificial Intelligence (IJCAI 2020)<br>
+		<!--<div class="color-button" onclick="isHidden('2020ijcai_hainan_abstract')">motivation</div>
+		<a href="/publications/papers/2020aaai_cai.pdf"><div class="color-button">pdf</div></a> -->
+		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div> -->
+		<!--<div class="abstract-box" id="2020ijcai_hainan_abstract" style="display:none">
+			<b>Abstract</b>: Humans benefit from previous experiences when taking actions. Similarly, related examples from the training data also provide exemplary information for neural dialogue models when responding to a given input message. However, effectively fusing such exemplary information into dialogue generation is non-trivial: useful exemplars are required to be not only literally-similar, but also topic-related with the given context. Noisy exemplars impair the neural dialogue models understanding the conversation topics and even corrupt the response generation. To address the issues, we propose an exemplar guided neural dialogue generation model where exemplar responses are retrieved in terms of both the text similarity and the topic proximity through a two-stage exemplar retrieval model. In the first stage, a small subset of conversations is retrieved from a training set given a dialogue context. These candidate exemplars are then finely ranked regarding the topical proximity to choose the best-matched exemplar response. To further induce the neural dialogue generation model consulting the exemplar response and the conversation topics more faithfully, we introduce a multi-source sampling mechanism to provide the dialogue model with both local exemplary semantics and global topical guidance during decoding. Empirical evaluations on a large-scale conversation dataset show that the proposed approach significantly outperforms the state-of-the-art in terms of both the quantitative metrics and human evaluations.<br> 
+		</div> --!>
+	</li><br>
+	<li>
+		<b>Exemplar Guided Neural Dialogue Generation.  </b><br>
+		<i>Hengyi Cai, Hongshen Chen, Yonghao Song, Xiaofang Zhao, Dawei Yin. </i><br>
+		In Proceedings of the 29th International Joint Conference on Artificial Intelligence (IJCAI 2020)<br>
+		<div class="color-button" onclick="isHidden('2020ijcai_cai_abstract')">motivation</div>
+		<!--<a href="/publications/papers/2020aaai_cai.pdf"><div class="color-button">pdf</div></a> -->
+		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div> -->
+		<div class="abstract-box" id="2020ijcai_cai_abstract" style="display:none">
+			<b>Abstract</b>: Humans benefit from previous experiences when taking actions. Similarly, related examples from the training data also provide exemplary information for neural dialogue models when responding to a given input message. However, effectively fusing such exemplary information into dialogue generation is non-trivial: useful exemplars are required to be not only literally-similar, but also topic-related with the given context. Noisy exemplars impair the neural dialogue models understanding the conversation topics and even corrupt the response generation. To address the issues, we propose an exemplar guided neural dialogue generation model where exemplar responses are retrieved in terms of both the text similarity and the topic proximity through a two-stage exemplar retrieval model. In the first stage, a small subset of conversations is retrieved from a training set given a dialogue context. These candidate exemplars are then finely ranked regarding the topical proximity to choose the best-matched exemplar response. To further induce the neural dialogue generation model consulting the exemplar response and the conversation topics more faithfully, we introduce a multi-source sampling mechanism to provide the dialogue model with both local exemplary semantics and global topical guidance during decoding. Empirical evaluations on a large-scale conversation dataset show that the proposed approach significantly outperforms the state-of-the-art in terms of both the quantitative metrics and human evaluations.<br>
+		</div>
+	</li><br>
+	<li>
 		<b>Data Manipulation: Towards Effective Instance Learning for Neural Dialogue Generation via Learning to Augment and Reweight. </b><br>
 		<i>Hengyi Cai, Hongshen Chen, Yonghao Song, Cheng Zhang, Xiaofang Zhao, Dawei Yin </i><br>
 		In Proceedings of the 58th Annual Conference of the Association for Computational Linguistics(ACL 2020), Seattle, Washington.<br>
-		<div class="color-button" onclick="isHidden('2020aaai_cai_abstract')">motivation</div>
+		<div class="color-button" onclick="isHidden('2020acl_cai_abstract')">motivation</div>
 		<!--<a href="/publications/papers/2020aaai_cai.pdf"><div class="color-button">pdf</div></a> -->
 		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div> -->
-		<div class="abstract-box" id="2020aaai_cai_abstract" style="display:none">
+		<div class="abstract-box" id="2020acl_cai_abstract" style="display:none">
 			<b>Abstract</b>: Current state-of-the-art neural dialogue models learn from human conversations following the data-driven paradigm. As such, a reliable training corpus is the crux of building a robust and well-behaved dialogue model. However, due to the open-ended nature of human conversations, the quality of user-generated training data varies greatly, and effective training samples are typically insufficient while noisy samples frequently appear. This impedes the learning of those data-driven neural dialogue models. Therefore, effective dialogue learning requires not only more reliable learning samples, but also fewer noisy samples. In this paper, we propose a data manipulation framework to proactively reshape the data distribution towards reliable samples by augmenting and highlighting effective learning samples as well as reducing the effect of inefficient samples simultaneously. In particular, the data manipulation model selectively augments the training samples and assigns an importance weight to each instance to reform the training data. Note that, the proposed data manipulation framework is fully data-driven and learnable. It not only manipulates training samples to optimize the dialogue generation model, but also learns to increase its manipulation skills through gradient descent with validation samples. Extensive experiments show that our framework can improve the dialogue generation performance with respect to 13 automatic evaluation metrics and human judgments.<br>
 			<b>Motivation</b>: <br>
 			<ul>
