@@ -26,26 +26,25 @@ Describe your research interests here.
 		-->
 	</li><br>
 	<li>
-		<b>Regularizing Dialogue Generation by Imitating Implicit Scenarios. </b><br>
-		<i>Shaoxiong Feng, Xuancheng Ren, Hongshen Chen, Bin Sun, Kan Li and Xu Sun </i><br>
+		<b>	Group-wise Contrastive Learning for Neural Dialogue Generation. </b><br>
+		<i>Hengyi Cai, Hongshen Chen, Yonghao Song, Zhuoye Ding, Yongjun Bao, Weipeng Yan and Xiaofang Zhao</i><br>
 		EMNLP 2020<br>
-		<a href="https://arxiv.org/pdf/2010.01893"><div class="color-button">pdf</div></a> 
-		<!--<div class="color-button" onclick="isHidden('2020sigir_haolan_abstract')">motivation</div>
-		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div>
+		<a href="https://arxiv.org/pdf/2009.07543"><div class="color-button">pdf</div></a>
+		<a href="https://github.com/hengyicai/ContrastiveLearning4Dialogue"><div class="color-button">code</div></a>
+		<!--<div class="color-button" onclick="isHidden('2020sigir_haolan_abstract')">motivation</div> -->
+		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div> 
 		<div class="abstract-box" id="2020sigir_haolan_abstract" style="display:none">
 			<b>Abstract</b>: Recommendation reason generation, aiming at showing the selling points of products for customers, plays a vital role in attracting customers' attention as well as improving user experience. A simple and effective way is to extract keywords directly from the knowledge-base of products, i.e., attributes or title, as the recommendation reason. However, generating recommendation reason from product knowledge doesn't naturally respond to users' interests. Fortunately, on some E-commerce websites, there exists more and more user-generated content (user-content for short), i.e., product question-answering (QA) discussions, which reflect user-cared aspects. Therefore, in this paper, we consider generating the recommendation reason by taking into account not only the product attributes but also the customer-generated product QA discussions. In reality, adequate user-content is only possible for the most popular commodities, whereas large sums of long-tail products or new products cannot gather a sufficient number of user-content. To tackle this problem, we propose a user-inspired  multi-source posterior transformer (MSPT), which induces the model reflecting the users' interests with a posterior multiple QA discussions module, and generating recommendation reasons containing the product attributes as well as the user-cared aspects. Experimental results show that our model is superior to traditional generative models. Additionally, the analysis also shows that our model can focus more on the user-cared aspects than baselines.<br>
 		</div>
 		-->
 	</li><br>
 	<li>
-		<b>	Group-wise Contrastive Learning for Neural Dialogue Generation. </b><br>
-		<i>Hengyi Cai, Hongshen Chen, Yonghao Song, Zhuoye Ding, Yongjun Bao, Weipeng Yan and Xiaofang Zhao
-</i><br>
+		<b>Regularizing Dialogue Generation by Imitating Implicit Scenarios. </b><br>
+		<i>Shaoxiong Feng, Xuancheng Ren, Hongshen Chen, Bin Sun, Kan Li and Xu Sun </i><br>
 		EMNLP 2020<br>
-		<a href="https://arxiv.org/pdf/2009.07543"><div class="color-button">pdf</div></a>
+		<a href="https://arxiv.org/pdf/2010.01893"><div class="color-button">pdf</div></a> 
 		<!--<div class="color-button" onclick="isHidden('2020sigir_haolan_abstract')">motivation</div>
-		 -->
-		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div> 
+		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div>
 		<div class="abstract-box" id="2020sigir_haolan_abstract" style="display:none">
 			<b>Abstract</b>: Recommendation reason generation, aiming at showing the selling points of products for customers, plays a vital role in attracting customers' attention as well as improving user experience. A simple and effective way is to extract keywords directly from the knowledge-base of products, i.e., attributes or title, as the recommendation reason. However, generating recommendation reason from product knowledge doesn't naturally respond to users' interests. Fortunately, on some E-commerce websites, there exists more and more user-generated content (user-content for short), i.e., product question-answering (QA) discussions, which reflect user-cared aspects. Therefore, in this paper, we consider generating the recommendation reason by taking into account not only the product attributes but also the customer-generated product QA discussions. In reality, adequate user-content is only possible for the most popular commodities, whereas large sums of long-tail products or new products cannot gather a sufficient number of user-content. To tackle this problem, we propose a user-inspired  multi-source posterior transformer (MSPT), which induces the model reflecting the users' interests with a posterior multiple QA discussions module, and generating recommendation reasons containing the product attributes as well as the user-cared aspects. Experimental results show that our model is superior to traditional generative models. Additionally, the analysis also shows that our model can focus more on the user-cared aspects than baselines.<br>
 		</div>
