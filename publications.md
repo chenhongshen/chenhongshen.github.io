@@ -17,8 +17,8 @@ Describe your research interests here.
 		<b>Multi-resolution Interactive Empathetic Dialogue Generation.</b><br>
 		<i>Qintong Li, Hongshen Chen, Zhaochun Ren, Pengjie Ren, Zhaopeng Tu and Zhumin Chen </i><br>
 		Coling 2020<br>
+		<a href="https://arxiv.org/pdf/1911.08698"><div class="color-button">pdf</div></a> 
 		<!--<div class="color-button" onclick="isHidden('2020sigir_haolan_abstract')">motivation</div>
-		<!--<a href="/publications/papers/2020aaai_cai.pdf"><div class="color-button">pdf</div></a> 
 		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div>
 		<div class="abstract-box" id="2020sigir_haolan_abstract" style="display:none">
 			<b>Abstract</b>: Recommendation reason generation, aiming at showing the selling points of products for customers, plays a vital role in attracting customers' attention as well as improving user experience. A simple and effective way is to extract keywords directly from the knowledge-base of products, i.e., attributes or title, as the recommendation reason. However, generating recommendation reason from product knowledge doesn't naturally respond to users' interests. Fortunately, on some E-commerce websites, there exists more and more user-generated content (user-content for short), i.e., product question-answering (QA) discussions, which reflect user-cared aspects. Therefore, in this paper, we consider generating the recommendation reason by taking into account not only the product attributes but also the customer-generated product QA discussions. In reality, adequate user-content is only possible for the most popular commodities, whereas large sums of long-tail products or new products cannot gather a sufficient number of user-content. To tackle this problem, we propose a user-inspired  multi-source posterior transformer (MSPT), which induces the model reflecting the users' interests with a posterior multiple QA discussions module, and generating recommendation reasons containing the product attributes as well as the user-cared aspects. Experimental results show that our model is superior to traditional generative models. Additionally, the analysis also shows that our model can focus more on the user-cared aspects than baselines.<br>
@@ -29,8 +29,8 @@ Describe your research interests here.
 		<b>Regularizing Dialogue Generation by Imitating Implicit Scenarios. </b><br>
 		<i>Shaoxiong Feng, Xuancheng Ren, Hongshen Chen, Bin Sun, Kan Li and Xu Sun </i><br>
 		EMNLP 2020<br>
+		<a href="https://arxiv.org/pdf/2010.01893"><div class="color-button">pdf</div></a> 
 		<!--<div class="color-button" onclick="isHidden('2020sigir_haolan_abstract')">motivation</div>
-		<!--<a href="/publications/papers/2020aaai_cai.pdf"><div class="color-button">pdf</div></a> 
 		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div>
 		<div class="abstract-box" id="2020sigir_haolan_abstract" style="display:none">
 			<b>Abstract</b>: Recommendation reason generation, aiming at showing the selling points of products for customers, plays a vital role in attracting customers' attention as well as improving user experience. A simple and effective way is to extract keywords directly from the knowledge-base of products, i.e., attributes or title, as the recommendation reason. However, generating recommendation reason from product knowledge doesn't naturally respond to users' interests. Fortunately, on some E-commerce websites, there exists more and more user-generated content (user-content for short), i.e., product question-answering (QA) discussions, which reflect user-cared aspects. Therefore, in this paper, we consider generating the recommendation reason by taking into account not only the product attributes but also the customer-generated product QA discussions. In reality, adequate user-content is only possible for the most popular commodities, whereas large sums of long-tail products or new products cannot gather a sufficient number of user-content. To tackle this problem, we propose a user-inspired  multi-source posterior transformer (MSPT), which induces the model reflecting the users' interests with a posterior multiple QA discussions module, and generating recommendation reasons containing the product attributes as well as the user-cared aspects. Experimental results show that our model is superior to traditional generative models. Additionally, the analysis also shows that our model can focus more on the user-cared aspects than baselines.<br>
@@ -42,8 +42,9 @@ Describe your research interests here.
 		<i>Hengyi Cai, Hongshen Chen, Yonghao Song, Zhuoye Ding, Yongjun Bao, Weipeng Yan and Xiaofang Zhao
 </i><br>
 		EMNLP 2020<br>
+		<a href="https://arxiv.org/pdf/2009.07543"><div class="color-button">pdf</div></a>
 		<!--<div class="color-button" onclick="isHidden('2020sigir_haolan_abstract')">motivation</div>
-		<a href="/publications/papers/2020aaai_cai.pdf"><div class="color-button">pdf</div></a> -->
+		 -->
 		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div> 
 		<div class="abstract-box" id="2020sigir_haolan_abstract" style="display:none">
 			<b>Abstract</b>: Recommendation reason generation, aiming at showing the selling points of products for customers, plays a vital role in attracting customers' attention as well as improving user experience. A simple and effective way is to extract keywords directly from the knowledge-base of products, i.e., attributes or title, as the recommendation reason. However, generating recommendation reason from product knowledge doesn't naturally respond to users' interests. Fortunately, on some E-commerce websites, there exists more and more user-generated content (user-content for short), i.e., product question-answering (QA) discussions, which reflect user-cared aspects. Therefore, in this paper, we consider generating the recommendation reason by taking into account not only the product attributes but also the customer-generated product QA discussions. In reality, adequate user-content is only possible for the most popular commodities, whereas large sums of long-tail products or new products cannot gather a sufficient number of user-content. To tackle this problem, we propose a user-inspired  multi-source posterior transformer (MSPT), which induces the model reflecting the users' interests with a posterior multiple QA discussions module, and generating recommendation reasons containing the product attributes as well as the user-cared aspects. Experimental results show that our model is superior to traditional generative models. Additionally, the analysis also shows that our model can focus more on the user-cared aspects than baselines.<br>
@@ -55,7 +56,7 @@ Describe your research interests here.
 		<i>Haolan Zhan, Hainan Zhang, Hongshen Chen, Lei Shen, Yanyan Lan, Zhuoye Ding and Dawei Yin. </i><br>
 		In Proceedings of the 43rd Annual ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2020)<br>
 		<div class="color-button" onclick="isHidden('2020sigir_haolan_abstract')">motivation</div>
-		<!--<a href="/publications/papers/2020aaai_cai.pdf"><div class="color-button">pdf</div></a> -->
+		<a href="/publications/papers/2020sigir_haolan.pdf"><div class="color-button">pdf</div></a>
 		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div> -->
 		<div class="abstract-box" id="2020sigir_haolan_abstract" style="display:none">
 			<b>Abstract</b>: Recommendation reason generation, aiming at showing the selling points of products for customers, plays a vital role in attracting customers' attention as well as improving user experience. A simple and effective way is to extract keywords directly from the knowledge-base of products, i.e., attributes or title, as the recommendation reason. However, generating recommendation reason from product knowledge doesn't naturally respond to users' interests. Fortunately, on some E-commerce websites, there exists more and more user-generated content (user-content for short), i.e., product question-answering (QA) discussions, which reflect user-cared aspects. Therefore, in this paper, we consider generating the recommendation reason by taking into account not only the product attributes but also the customer-generated product QA discussions. In reality, adequate user-content is only possible for the most popular commodities, whereas large sums of long-tail products or new products cannot gather a sufficient number of user-content. To tackle this problem, we propose a user-inspired  multi-source posterior transformer (MSPT), which induces the model reflecting the users' interests with a posterior multiple QA discussions module, and generating recommendation reasons containing the product attributes as well as the user-cared aspects. Experimental results show that our model is superior to traditional generative models. Additionally, the analysis also shows that our model can focus more on the user-cared aspects than baselines.<br>
@@ -65,19 +66,14 @@ Describe your research interests here.
 		<b>Modeling Topical Relevance for Multi-Turn Dialogue Generation  </b><br>
 		<i>Hainan Zhang, Yanyan Lan, Liang Pang, Hongshen Chen, Zhuoye Ding, Dawei Yin. </i><br>
 		In Proceedings of the 29th International Joint Conference on Artificial Intelligence (IJCAI 2020)<br>
-		<!--<div class="color-button" onclick="isHidden('2020ijcai_hainan_abstract')">motivation</div>
-		<a href="/publications/papers/2020aaai_cai.pdf"><div class="color-button">pdf</div></a> -->
-		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div> -->
-		<!--<div class="abstract-box" id="2020ijcai_hainan_abstract" style="display:none">
-			<b>Abstract</b>: Humans benefit from previous experiences when taking actions. Similarly, related examples from the training data also provide exemplary information for neural dialogue models when responding to a given input message. However, effectively fusing such exemplary information into dialogue generation is non-trivial: useful exemplars are required to be not only literally-similar, but also topic-related with the given context. Noisy exemplars impair the neural dialogue models understanding the conversation topics and even corrupt the response generation. To address the issues, we propose an exemplar guided neural dialogue generation model where exemplar responses are retrieved in terms of both the text similarity and the topic proximity through a two-stage exemplar retrieval model. In the first stage, a small subset of conversations is retrieved from a training set given a dialogue context. These candidate exemplars are then finely ranked regarding the topical proximity to choose the best-matched exemplar response. To further induce the neural dialogue generation model consulting the exemplar response and the conversation topics more faithfully, we introduce a multi-source sampling mechanism to provide the dialogue model with both local exemplary semantics and global topical guidance during decoding. Empirical evaluations on a large-scale conversation dataset show that the proposed approach significantly outperforms the state-of-the-art in terms of both the quantitative metrics and human evaluations.<br> 
-		</div> --!>
+		<a href="https://arxiv.org/pdf/2009.12735"><div class="color-button">pdf</div></a>
 	</li><br>
 	<li>
 		<b>Exemplar Guided Neural Dialogue Generation.  </b><br>
 		<i>Hengyi Cai, Hongshen Chen, Yonghao Song, Xiaofang Zhao, Dawei Yin. </i><br>
 		In Proceedings of the 29th International Joint Conference on Artificial Intelligence (IJCAI 2020)<br>
 		<div class="color-button" onclick="isHidden('2020ijcai_cai_abstract')">motivation</div>
-		<!--<a href="/publications/papers/2020aaai_cai.pdf"><div class="color-button">pdf</div></a> -->
+		<a href="https://www.ijcai.org/Proceedings/2020/0498.pdf"><div class="color-button">pdf</div></a>
 		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div> -->
 		<div class="abstract-box" id="2020ijcai_cai_abstract" style="display:none">
 			<b>Abstract</b>: Humans benefit from previous experiences when taking actions. Similarly, related examples from the training data also provide exemplary information for neural dialogue models when responding to a given input message. However, effectively fusing such exemplary information into dialogue generation is non-trivial: useful exemplars are required to be not only literally-similar, but also topic-related with the given context. Noisy exemplars impair the neural dialogue models understanding the conversation topics and even corrupt the response generation. To address the issues, we propose an exemplar guided neural dialogue generation model where exemplar responses are retrieved in terms of both the text similarity and the topic proximity through a two-stage exemplar retrieval model. In the first stage, a small subset of conversations is retrieved from a training set given a dialogue context. These candidate exemplars are then finely ranked regarding the topical proximity to choose the best-matched exemplar response. To further induce the neural dialogue generation model consulting the exemplar response and the conversation topics more faithfully, we introduce a multi-source sampling mechanism to provide the dialogue model with both local exemplary semantics and global topical guidance during decoding. Empirical evaluations on a large-scale conversation dataset show that the proposed approach significantly outperforms the state-of-the-art in terms of both the quantitative metrics and human evaluations.<br>
@@ -88,7 +84,7 @@ Describe your research interests here.
 		<i>Hengyi Cai, Hongshen Chen, Yonghao Song, Cheng Zhang, Xiaofang Zhao, Dawei Yin </i><br>
 		In Proceedings of the 58th Annual Conference of the Association for Computational Linguistics(ACL 2020), Seattle, Washington.<br>
 		<div class="color-button" onclick="isHidden('2020acl_cai_abstract')">motivation</div>
-		<!--<a href="/publications/papers/2020aaai_cai.pdf"><div class="color-button">pdf</div></a> -->
+		<a href="https://www.aclweb.org/anthology/2020.acl-main.564.pdf"><div class="color-button">pdf</div></a>
 		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div> -->
 		<div class="abstract-box" id="2020acl_cai_abstract" style="display:none">
 			<b>Abstract</b>: Current state-of-the-art neural dialogue models learn from human conversations following the data-driven paradigm. As such, a reliable training corpus is the crux of building a robust and well-behaved dialogue model. However, due to the open-ended nature of human conversations, the quality of user-generated training data varies greatly, and effective training samples are typically insufficient while noisy samples frequently appear. This impedes the learning of those data-driven neural dialogue models. Therefore, effective dialogue learning requires not only more reliable learning samples, but also fewer noisy samples. In this paper, we propose a data manipulation framework to proactively reshape the data distribution towards reliable samples by augmenting and highlighting effective learning samples as well as reducing the effect of inefficient samples simultaneously. In particular, the data manipulation model selectively augments the training samples and assigns an importance weight to each instance to reform the training data. Note that, the proposed data manipulation framework is fully data-driven and learnable. It not only manipulates training samples to optimize the dialogue generation model, but also learns to increase its manipulation skills through gradient descent with validation samples. Extensive experiments show that our framework can improve the dialogue generation performance with respect to 13 automatic evaluation metrics and human judgments.<br>
@@ -139,7 +135,7 @@ Describe your research interests here.
 		<i>Hengyi Cai, Hongshen Chen, Cheng Zhang, Yonghao Song, Xiaofang Zhao and Dawei Yin. </i><br>
 		In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP 2019), Hong Kong, China, Nov. 2019.<br>
 		<div class="color-button" onclick="isHidden('2019emnlp_cai_abstract')">motivation</div>
-		<a href="https://www.aclweb.org/anthology/D19-1188/"><div class="color-button">pdf</div></a>
+		<a href="https://www.aclweb.org/anthology/D19-1188.pdf"><div class="color-button">pdf</div></a>
 		<div class="color-button" onclick="isHidden('2019emnlp_cai_bibtex')">bibtex</div>
 		<a href="https://github.com/hengyicai/AdaND"><div class="color-button">code</div></a>
 		<div class="abstract-box" id="2019emnlp_cai_abstract" style="display:none">
@@ -222,7 +218,7 @@ Describe your research interests here.
 		<b>Explicit State Tracking with Semi-Supervision for Neural Dialogue Generation.</b><br>
 		<i>Xisen Jin, Wenqiang Lei, Zhaochun Ren, Hongshen Chen, Shangsong Liang, Yihong Eric Zhao, Dawei Yin.</i><br>
 		In Proceedings of the 27th ACM Conference on Information and Knowledge Management (CIKM 2018), Turin, Italy, Oct. 2018.<br>
-		<a href="https://arxiv.org/abs/1808.10596"><div class="color-button">pdf</div></a>
+		<a href="https://arxiv.org/pdf/1808.10596"><div class="color-button">pdf</div></a>
 		<div class="color-button" onclick="isHidden('2018cikm_jin_bibtex')">bibtex</div>
 		<div class="bibtex-box" id="2018cikm_jin_bibtex" style="display:none">
 		@inproceedings{jin2018explicit, <br>
@@ -239,7 +235,7 @@ Describe your research interests here.
 		<b>Knowledge Diffusion for Neural Dialogue Generation.</b><br>
 		<i>Liu Shuman, Hongshen Chen, Zhaochun Ren, Yang Feng, Qun Liu and Dawei Yin.</i><br>
 		ACL 2018, Melbourne, Australia, 2018.<br>
-		<a href="https://www.aclweb.org/anthology/P18-1138/"><div class="color-button">pdf</div></a>
+		<a href="https://www.aclweb.org/anthology/P18-1138.pdf"><div class="color-button">pdf</div></a>
 		<div class="color-button" onclick="isHidden('2018acl_liu_bibtex')">bibtex</div>
 		<a href="https://github.com/liushuman/neural-knowledge-diffusion"><div class="color-button">corpus</div></a>
 		<div class="bibtex-box" id="2018acl_liu_bibtex" style="display:none">
@@ -262,7 +258,7 @@ Describe your research interests here.
 		<b>Learning Tag Dependencies for Sequence Tagging.</b><br>
 		<i>Yuan Zhang, Hongshen Chen, Yihong Eric Zhao, Qun Liu, Dawei Yin.</i><br>
 		IJCAI, 2018.<br>
-		<a href="https://www.ijcai.org/proceedings/2018/0637"><div class="color-button">pdf</div></a>
+		<a href="https://www.ijcai.org/Proceedings/2018/0637.pdf"><div class="color-button">pdf</div></a>
 		<div class="color-button" onclick="isHidden('2018ijcai_zhang_bibtex')">bibtex</div>
 		<div class="bibtex-box" id="2018ijcai_zhang_bibtex" style="display:none">
 		@inproceedings{ijcai2018-0637, <br>
@@ -300,7 +296,7 @@ Describe your research interests here.
 		<b>A Survey on Dialogue Systems: Recent Advances and New Frontiers.</b><br>
 		<i>Hongshen Chen, Xiaorui Liu, Dawei Yin and Jiliang Tang. </i><br>
 		SIGKDD Explorations, 2018.<br>
-		<a href="https://arxiv.org/abs/1711.01731"><div class="color-button">pdf</div></a>
+		<a href="https://arxiv.org/pdf/1711.01731"><div class="color-button">pdf</div></a>
 		<div class="color-button" onclick="isHidden('2018kdd_exp_bibtex')">bibtex</div>
 		<div class="bibtex-box" id="2018kdd_exp_bibtex" style="display:none">
 		@article{chen2017survey, <br>
@@ -327,7 +323,7 @@ Describe your research interests here.
 		<b>Neural Network for Heterogeneous Annotations.</b><br>
 		<i>Hongshen Chen, Yue Zhang, Qun Liu.</i><br>
 		EMNLP, 2016.<br>
-		<a href="https://www.aclweb.org/anthology/D16-1070/"><div class="color-button">pdf</div></a>
+		<a href="https://www.aclweb.org/anthology/D16-1070.pdf"><div class="color-button">pdf</div></a>
 		<div class="color-button" onclick="isHidden('2016emnlp_bibtex')">bibtex</div>
 		<a href="https://github.com/chenhongshen/NNHetSeq"><div class="color-button">code&corpus</div></a>
 		<div class="bibtex-box" id="2016emnlp_bibtex" style="display:none">
@@ -359,7 +355,7 @@ Describe your research interests here.
 		<b>A Dependency Edge-based Transfer Model for Statistical Machine Translation. </b><br>
 		<i>Hongshen Chen, Jun Xie, Fandong Meng, Weibin Jiang, Qun Liu. </i><br>
 		COLING, 2014.<br>
-		<a href="https://www.aclweb.org/anthology/C14-1104/"><div class="color-button">pdf</div></a>
+		<a href="https://www.aclweb.org/anthology/C14-1104.pdf"><div class="color-button">pdf</div></a>
 		<div class="color-button" onclick="isHidden('2014coling_bibtex')">bibtex</div>
 		<div class="bibtex-box" id="2014coling_bibtex" style="display:none">
 		@inproceedings{chen-etal-2014-dependency, <br>
