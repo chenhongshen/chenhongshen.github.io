@@ -17,7 +17,7 @@ Describe your research interests here.
 		<b>Collaborative Group Learning.</b><br>
 		<i>Shaoxiong Feng, Hongshen Chen, Xuancheng Ren, Zhuoye Ding, Kan Li and Xu Sun </i><br>
 		AAAI 2021<br>
-		<!--<a href="https://arxiv.org/pdf/1911.08698"><div class="color-button">pdf</div></a> 
+		<a href="https://arxiv.org/pdf/2009.07712"><div class="color-button">pdf</div></a> 
 		<!--<div class="color-button" onclick="isHidden('2020sigir_haolan_abstract')">motivation</div>
 		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div>
 		<div class="abstract-box" id="2020sigir_haolan_abstract" style="display:none">
@@ -26,7 +26,7 @@ Describe your research interests here.
 		-->
 	</li><br>
 <li>
-		<b>Probing Product Description Generation via Posterior Distillation</b><br>
+		<b>Probing Product Description Generation via Posterior Distillation.</b><br>
 		<i> Haolan Zhan, Hainan Zhang, Hongshen Chen, Lei Shen, Zhuoye Ding, Yongjun Bao, Weipeng Yan and Yanyan Lan </i><br>
 		AAAI 2021<br>
 		<!-- <a href="https://arxiv.org/pdf/1911.08698"><div class="color-button">pdf</div></a> 
