@@ -13,6 +13,20 @@ Describe your research interests here.
 
 <h2>Publications</h2>
 <ul>
+
+<li>
+		<b>Augmenting Knowledge-grounded Dialog Generation with Sequential Knowledge Transition.</b><br>
+		<i>Haolan Zhan, Hainan Zhang, Hongshen Chen, Zhuoye Ding, Yongjun Bao and Yanyan Lan </i><br>
+		NAACL 2021<br>
+		<!-- <a href="https://arxiv.org/pdf/2009.07712"><div class="color-button">pdf</div></a>  
+		<div class="color-button" onclick="isHidden('2021aaai_shaoxiong_abstract')">motivation</div>
+		<div class="abstract-box" id="2021aaai_shaoxiong_abstract" style="display:none">
+			<b>Abstract</b>: Collaborative learning has successfully applied knowledge transfer to guiding a pool of small student networks towards robust local minima. However, previous approaches typically struggle with drastically aggravated student homogenization when the number of students rises. In this paper, we propose Collaborative Group Learning, an efficient framework that aims to diversify the feature representation and conduct an effective regularization. Intuitively, similar to the human group study mechanism, we induce students to learn and exchange different parts of course knowledge as collaborative groups. First, each student is established by randomly routing on a modular neural network, which facilitates flexible knowledge communication between students due to random levels of representation sharing and branching. Second, to resist the student homogenization, students first compose diverse feature sets by exploiting the inductive bias from sub-sets of training data, and then aggregate and distill different complementary knowledge by imitating a random sub-group of students at each time step. Besides, the above mechanisms are beneficial for maximizing the student population to further improve the model generalization without sacrificing computational efficiency. Empirical evaluations on both image and text tasks indicate that our method significantly outperforms various state-of-the-art collaborative approaches whilst enhancing computational efficiency. <br>
+		</div> -->
+		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div>
+		-->
+	</li><br>
+
 <li>
 		<b>Collaborative Group Learning.</b><br>
 		<i>Shaoxiong Feng, Hongshen Chen, Xuancheng Ren, Zhuoye Ding, Kan Li and Xu Sun </i><br>
@@ -20,25 +34,25 @@ Describe your research interests here.
 		<a href="https://arxiv.org/pdf/2009.07712"><div class="color-button">pdf</div></a> 
 		<div class="color-button" onclick="isHidden('2021aaai_shaoxiong_abstract')">motivation</div>
 		<div class="abstract-box" id="2021aaai_shaoxiong_abstract" style="display:none">
-			<b>Abstract</b>: Collaborative learning has successfully applied knowledge transfer to guiding a pool of small student networks towards robust local minima. However, previous approaches typically struggle with drastically aggravated student homogenization when the number of students rises. In this paper, we propose Collaborative Group Learning, an efficient framework that aims to diversify the feature representation and conduct an effective regularization. Intuitively, similar to the human group study mechanism, we induce students to learn and exchange different parts of course knowledge as collaborative groups. First, each student is established by randomly routing on a modular neural network, which facilitates flexible knowledge communication between students due to random levels of representation sharing and branching. Second, to resist the student homogenization, students first compose diverse feature sets by exploiting the inductive bias from sub-sets of training data, and then aggregate and distill different complementary knowledge by imitating a random sub-group of students at each time step. Besides, the above mechanisms are beneficial for maximizing the student population to further improve the model generalization without sacrificing computational efficiency. Empirical evaluations on both image and text tasks indicate that our method significantly outperforms various state-of-the-art collaborative approaches whilst enhancing computational efficiency.
-
-<br>
+			<b>Abstract</b>: Collaborative learning has successfully applied knowledge transfer to guiding a pool of small student networks towards robust local minima. However, previous approaches typically struggle with drastically aggravated student homogenization when the number of students rises. In this paper, we propose Collaborative Group Learning, an efficient framework that aims to diversify the feature representation and conduct an effective regularization. Intuitively, similar to the human group study mechanism, we induce students to learn and exchange different parts of course knowledge as collaborative groups. First, each student is established by randomly routing on a modular neural network, which facilitates flexible knowledge communication between students due to random levels of representation sharing and branching. Second, to resist the student homogenization, students first compose diverse feature sets by exploiting the inductive bias from sub-sets of training data, and then aggregate and distill different complementary knowledge by imitating a random sub-group of students at each time step. Besides, the above mechanisms are beneficial for maximizing the student population to further improve the model generalization without sacrificing computational efficiency. Empirical evaluations on both image and text tasks indicate that our method significantly outperforms various state-of-the-art collaborative approaches whilst enhancing computational efficiency. <br>
 		</div>
 		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div>
 		-->
 	</li><br>
+
 <li>
 		<b>Probing Product Description Generation via Posterior Distillation.</b><br>
 		<i> Haolan Zhan, Hainan Zhang, Hongshen Chen, Lei Shen, Zhuoye Ding, Yongjun Bao, Weipeng Yan and Yanyan Lan </i><br>
 		AAAI 2021<br>
+		<a href="https://arxiv.org/pdf/2103.01594.pdf"><div class="color-button">pdf</div></a> 
 		<div class="color-button" onclick="isHidden('2021aaai_haolan_abstract')">motivation</div>
 		<div class="abstract-box" id="2021aaai_haolan_abstract" style="display:none">
 			<b>Abstract</b>: In product description generation (PDG), the user-cared aspect is critical for the recommendation system, which can not only improve user's experiences but also obtain more clicks. High-quality customer reviews can be considered as an ideal source to mine user-cared aspects. However, in reality, a large number of new products (known as long-tailed commodities) cannot gather sufficient amount of customer reviews, which brings a big challenge in the product description generation task. Existing works tend to generate the product description solely based on item information, i.e., product attributes or title words, which leads to tedious contents and cannot attract customers effectively. To tackle this problem, we propose an adaptive posterior network based on Transformer architecture that can utilize user-cared information from customer reviews. Specifically, we first extend the self-attentive Transformer encoder to encode product titles and attributes. Then, we apply an adaptive posterior distillation module to utilize useful review information, which integrates user-cared aspects to the generation process. Finally, we apply a Transformer-based decoding phase with copy mechanism to automatically generate the product description. Besides, we also collect a large-scare Chinese product description dataset to support our work and further research in this field. Experimental results show that our model is superior to traditional generative models in both automatic indicators and human evaluation.<br>
 		</div>
-		<!-- <a href="https://arxiv.org/pdf/1911.08698"><div class="color-button">pdf</div></a> 
 		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div>
 		-->
 	</li><br>
+
 <li>
 		<b>Multi-resolution Interactive Empathetic Dialogue Generation.</b><br>
 		<i>Qintong Li, Hongshen Chen, Zhaochun Ren, Pengjie Ren, Zhaopeng Tu and Zhumin Chen </i><br>
@@ -51,6 +65,7 @@ Describe your research interests here.
 		</div>
 		-->
 	</li><br>
+
 	<li>
 		<b>	Group-wise Contrastive Learning for Neural Dialogue Generation. </b><br>
 		<i>Hengyi Cai, Hongshen Chen, Yonghao Song, Zhuoye Ding, Yongjun Bao, Weipeng Yan and Xiaofang Zhao</i><br>
