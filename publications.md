@@ -74,6 +74,7 @@ Describe your research interests here.
 		CIKM 2021<br>
 	</li><br>
 
+<li>
 		<b>Improving Sequential Recommendation Consistency with Self-Supervised Imitation.</b><br>
 		<i>Xu Yuan, Hongshen Chen, Yonghao Song, Xiaofang Zhao, Zhuoye Ding, Zhen He, Zhuoye Ding and Bo Long </i><br>
 		IJCAI 2021<br>
