@@ -15,6 +15,73 @@ Describe your research interests here.
 <ul>
 
 <li>
+		<b>CoLV: A Collaborative Latent Variable Model for Knowledge-Grounded Dialogue Generation</b><br>
+		<i>Haolan Zhan, Lei Shen, Hongshen Chen and Hainan Zhang </i><br>
+		EMNLP 2021<br>
+		<!-- <a href="https://arxiv.org/pdf/2009.07712"><div class="color-button">pdf</div></a>  
+		<div class="color-button" onclick="isHidden('2021aaai_shaoxiong_abstract')">motivation</div>
+		<div class="abstract-box" id="2021aaai_shaoxiong_abstract" style="display:none">
+			<b>Abstract</b>: Collaborative learning has successfully applied knowledge transfer to guiding a pool of small student networks towards robust local minima. However, previous approaches typically struggle with drastically aggravated student homogenization when the number of students rises. In this paper, we propose Collaborative Group Learning, an efficient framework that aims to diversify the feature representation and conduct an effective regularization. Intuitively, similar to the human group study mechanism, we induce students to learn and exchange different parts of course knowledge as collaborative groups. First, each student is established by randomly routing on a modular neural network, which facilitates flexible knowledge communication between students due to random levels of representation sharing and branching. Second, to resist the student homogenization, students first compose diverse feature sets by exploiting the inductive bias from sub-sets of training data, and then aggregate and distill different complementary knowledge by imitating a random sub-group of students at each time step. Besides, the above mechanisms are beneficial for maximizing the student population to further improve the model generalization without sacrificing computational efficiency. Empirical evaluations on both image and text tasks indicate that our method significantly outperforms various state-of-the-art collaborative approaches whilst enhancing computational efficiency. <br>
+		</div> -->
+		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div>
+		-->
+	</li><br>
+
+<li>
+		<b>Adaptive Bridge between Training and Inference for Dialogue Generation</b><br>
+		<i>Haoran Xu, Hainan Zhang, Yanyan Zou, Hongshen Chen, Zhuoye Ding and Yanyan Lan </i><br>
+		EMNLP 2021<br>
+		<!-- <a href="https://arxiv.org/pdf/2009.07712"><div class="color-button">pdf</div></a>  
+		<div class="color-button" onclick="isHidden('2021aaai_shaoxiong_abstract')">motivation</div>
+		<div class="abstract-box" id="2021aaai_shaoxiong_abstract" style="display:none">
+			<b>Abstract</b>: Collaborative learning has successfully applied knowledge transfer to guiding a pool of small student networks towards robust local minima. However, previous approaches typically struggle with drastically aggravated student homogenization when the number of students rises. In this paper, we propose Collaborative Group Learning, an efficient framework that aims to diversify the feature representation and conduct an effective regularization. Intuitively, similar to the human group study mechanism, we induce students to learn and exchange different parts of course knowledge as collaborative groups. First, each student is established by randomly routing on a modular neural network, which facilitates flexible knowledge communication between students due to random levels of representation sharing and branching. Second, to resist the student homogenization, students first compose diverse feature sets by exploiting the inductive bias from sub-sets of training data, and then aggregate and distill different complementary knowledge by imitating a random sub-group of students at each time step. Besides, the above mechanisms are beneficial for maximizing the student population to further improve the model generalization without sacrificing computational efficiency. Empirical evaluations on both image and text tasks indicate that our method significantly outperforms various state-of-the-art collaborative approaches whilst enhancing computational efficiency. <br>
+		</div> -->
+		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div>
+		-->
+	</li><br>
+
+
+<li>
+		<b>	Topic-Aware Contrastive Learning for Abstractive Dialogue Summarization</b><br>
+		<i>	Junpeng Liu, Yanyan Zou, Hainan Zhang, Hongshen Chen, Zhuoye Ding, Caixia Yuan and Xiaojie Wang </i><br>
+		EMNLP 2021 findings<br>
+		<!-- <a href="https://arxiv.org/pdf/2009.07712"><div class="color-button">pdf</div></a>  
+		<div class="color-button" onclick="isHidden('2021aaai_shaoxiong_abstract')">motivation</div>
+		<div class="abstract-box" id="2021aaai_shaoxiong_abstract" style="display:none">
+			<b>Abstract</b>: Collaborative learning has successfully applied knowledge transfer to guiding a pool of small student networks towards robust local minima. However, previous approaches typically struggle with drastically aggravated student homogenization when the number of students rises. In this paper, we propose Collaborative Group Learning, an efficient framework that aims to diversify the feature representation and conduct an effective regularization. Intuitively, similar to the human group study mechanism, we induce students to learn and exchange different parts of course knowledge as collaborative groups. First, each student is established by randomly routing on a modular neural network, which facilitates flexible knowledge communication between students due to random levels of representation sharing and branching. Second, to resist the student homogenization, students first compose diverse feature sets by exploiting the inductive bias from sub-sets of training data, and then aggregate and distill different complementary knowledge by imitating a random sub-group of students at each time step. Besides, the above mechanisms are beneficial for maximizing the student population to further improve the model generalization without sacrificing computational efficiency. Empirical evaluations on both image and text tasks indicate that our method significantly outperforms various state-of-the-art collaborative approaches whilst enhancing computational efficiency. <br>
+		</div> -->
+		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div>
+		-->
+	</li><br>
+
+
+<li>
+		<b>	FCM: A Fine-grained Comparison Model for Multi-turn Dialogue Reasoning</b><br>
+		<i>	Xu Wang, Hainan Zhang, Shuai Zhao, Yanyan Zou, Hongshen Chen, Zhuoye Ding, Bo Cheng and Yanyan Lan </i><br>
+		EMNLP 2021 findings<br>
+		<!-- <a href="https://arxiv.org/pdf/2009.07712"><div class="color-button">pdf</div></a>  
+		<div class="color-button" onclick="isHidden('2021aaai_shaoxiong_abstract')">motivation</div>
+		<div class="abstract-box" id="2021aaai_shaoxiong_abstract" style="display:none">
+			<b>Abstract</b>: Collaborative learning has successfully applied knowledge transfer to guiding a pool of small student networks towards robust local minima. However, previous approaches typically struggle with drastically aggravated student homogenization when the number of students rises. In this paper, we propose Collaborative Group Learning, an efficient framework that aims to diversify the feature representation and conduct an effective regularization. Intuitively, similar to the human group study mechanism, we induce students to learn and exchange different parts of course knowledge as collaborative groups. First, each student is established by randomly routing on a modular neural network, which facilitates flexible knowledge communication between students due to random levels of representation sharing and branching. Second, to resist the student homogenization, students first compose diverse feature sets by exploiting the inductive bias from sub-sets of training data, and then aggregate and distill different complementary knowledge by imitating a random sub-group of students at each time step. Besides, the above mechanisms are beneficial for maximizing the student population to further improve the model generalization without sacrificing computational efficiency. Empirical evaluations on both image and text tasks indicate that our method significantly outperforms various state-of-the-art collaborative approaches whilst enhancing computational efficiency. <br>
+		</div> -->
+		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div>
+		-->
+	</li><br>
+
+<li>
+		<b>Identifying Untrustworthy Samples: Data Filtering for Open-domain Dialogues with Bayesian Optimization</b><br>
+		<i>Lei Shen, Haolan Zhan, Xin Shen, Hongshen Chen, Xiaofang Zhao and Xiaodan Zhu </i><br>
+		CIKM 2021<br>
+		<!-- <a href="https://arxiv.org/pdf/2009.07712"><div class="color-button">pdf</div></a>  
+		<div class="color-button" onclick="isHidden('2021aaai_shaoxiong_abstract')">motivation</div>
+		<div class="abstract-box" id="2021aaai_shaoxiong_abstract" style="display:none">
+			<b>Abstract</b>: Collaborative learning has successfully applied knowledge transfer to guiding a pool of small student networks towards robust local minima. However, previous approaches typically struggle with drastically aggravated student homogenization when the number of students rises. In this paper, we propose Collaborative Group Learning, an efficient framework that aims to diversify the feature representation and conduct an effective regularization. Intuitively, similar to the human group study mechanism, we induce students to learn and exchange different parts of course knowledge as collaborative groups. First, each student is established by randomly routing on a modular neural network, which facilitates flexible knowledge communication between students due to random levels of representation sharing and branching. Second, to resist the student homogenization, students first compose diverse feature sets by exploiting the inductive bias from sub-sets of training data, and then aggregate and distill different complementary knowledge by imitating a random sub-group of students at each time step. Besides, the above mechanisms are beneficial for maximizing the student population to further improve the model generalization without sacrificing computational efficiency. Empirical evaluations on both image and text tasks indicate that our method significantly outperforms various state-of-the-art collaborative approaches whilst enhancing computational efficiency. <br>
+		</div> -->
+		<!--<div class="color-button" onclick="isHidden('2020aaai_cai_bibtex')">bibtex</div>
+		-->
+	</li><br>
+
+<li>
 		<b>Augmenting Knowledge-grounded Dialog Generation with Sequential Knowledge Transition.</b><br>
 		<i>Haolan Zhan, Hainan Zhang, Hongshen Chen, Zhuoye Ding, Yongjun Bao and Yanyan Lan </i><br>
 		NAACL 2021<br>
