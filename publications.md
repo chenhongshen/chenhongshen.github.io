@@ -139,7 +139,7 @@ Describe your research interests here.
 		-->
 	</li><br>
 
-	<li>
+<li>
 		<b>	Group-wise Contrastive Learning for Neural Dialogue Generation. </b><br>
 		<i>Hengyi Cai, Hongshen Chen, Yonghao Song, Zhuoye Ding, Yongjun Bao, Weipeng Yan and Xiaofang Zhao</i><br>
 		EMNLP 2020<br>
