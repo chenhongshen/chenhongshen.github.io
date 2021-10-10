@@ -15,7 +15,6 @@ Describe your research interests here.
 <ul>
 
 <li>
-<<<<<<< HEAD
 		<b>CoLV: A Collaborative Latent Variable Model for Knowledge-Grounded Dialogue Generation</b><br>
 		<i>Haolan Zhan, Lei Shen, Hongshen Chen and Hainan Zhang </i><br>
 		EMNLP 2021<br>
@@ -73,11 +72,9 @@ Describe your research interests here.
 		<b>Identifying Untrustworthy Samples: Data Filtering for Open-domain Dialogues with Bayesian Optimization</b><br>
 		<i>Lei Shen, Haolan Zhan, Xin Shen, Hongshen Chen, Xiaofang Zhao and Xiaodan Zhu </i><br>
 		CIKM 2021<br>
-=======
 		<b>Improving Sequential Recommendation Consistency with Self-Supervised Imitation.</b><br>
 		<i>Xu Yuan, Hongshen Chen, Yonghao Song, Xiaofang Zhao, Zhuoye Ding, Zhen He, Zhuoye Ding and Bo Long </i><br>
 		IJCAI 2021<br>
->>>>>>> 04468a8fcf9f7870ec8958dc49daf505c6c25236
 		<!-- <a href="https://arxiv.org/pdf/2009.07712"><div class="color-button">pdf</div></a>  
 		<div class="color-button" onclick="isHidden('2021aaai_shaoxiong_abstract')">motivation</div>
 		<div class="abstract-box" id="2021aaai_shaoxiong_abstract" style="display:none">
