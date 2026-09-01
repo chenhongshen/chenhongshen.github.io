@@ -1,0 +1,13 @@
+# Jekyll output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# macOS
+.DS_Store
+desktop.ini
+
+# IDE
+.codebuddy/
+_config.dev.yml

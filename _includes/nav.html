@@ -8,9 +8,9 @@
     <li><a href="{{ site.baseurl }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
     {% endfor %}
     </ul>
-    {% else %}
-     <li><a href="{{ site.baseurl }}{{ menu_item.href }}" class="page-link">{{ menu_item.title }}</a>
-    {% endif %}
     </li>
+    {% else %}
+    <li><a href="{{ site.baseurl }}{{ menu_item.href }}" class="page-link">{{ menu_item.title }}</a></li>
+    {% endif %}
     {% endfor %}
 </ul>

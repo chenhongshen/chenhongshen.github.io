@@ -1,9 +1,12 @@
 /**
- * Site footer
+ * Site footer — dark chrome to close the sandwich
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    background: $dark-bg;
+    border-top: 3px solid $brand-color;
     padding: $spacing-unit 0;
+    margin-top: $spacing-unit * 1.5;
+    color: $dark-text-dim;
 }
 
 .footer-heading {
@@ -17,9 +20,36 @@
     margin-left: 0;
 }
 
+.site-footer a {
+    color: $dark-text-dim;
+    transition: color 0.2s ease;
+    &:hover {
+        color: $accent-color-light;
+    }
+}
+
+// social icons turn gold on hover
+.site-footer .icon > svg path {
+    transition: fill 0.2s ease;
+}
+.site-footer .social-media-list li:hover .icon > svg path {
+    fill: $accent-color-light;
+}
+
+// copyright bar at the very bottom of the footer
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    margin-top: $spacing-unit;
+    padding-top: 14px;
+    font-size: $small-font-size;
+    color: #7d786c;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $dark-text-dim;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -30,24 +60,19 @@
     padding-left: $spacing-unit / 2;
 }
 
-.footer-col-0 {
-    width: -webkit-calc(15% - (#{$spacing-unit} / 2));
-    width:         calc(15% - (#{$spacing-unit} / 2));
-}
-
 .footer-col-1 {
-    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-    width:         calc(30% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    width:         calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(15% - (#{$spacing-unit} / 2));
-    width:         calc(15% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(20% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(40% - (#{$spacing-unit} / 2));
-    width:         calc(40% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -113,12 +138,12 @@
 }
 
 h1 /* .post-title */ {
-/*    font-size: 42px; */
     margin-top: 10px;
-    letter-spacing: -1px;
-    line-height: 1;
-		font-family: 'Titillium Web', sans-serif;
-		color: $accent-color-light;
+    letter-spacing: -0.5px;
+    line-height: 1.15;
+    font-family: 'Playfair Display', 'Times New Roman', Georgia, serif;
+    color: #1a1815;
+    font-size: 2em;
 
     @include media-query($on-laptop) {
 /*        font-size: 36px; */
@@ -129,8 +154,8 @@ h1 /* .post-title */ {
     margin-bottom: $spacing-unit;
 
     h2 {
-		font-family: 'Titillium Web', sans-serif;
-	    font-weight: 500;
+        font-family: 'Playfair Display', 'Times New Roman', Georgia, serif;
+        font-weight: 400;
 /*        font-size: 32px; */
 
         @include media-query($on-laptop) {
@@ -139,8 +164,10 @@ h1 /* .post-title */ {
     }
 
     h3 {
-		font-style: italic;
-        font-weight: 500;
+        font-style: normal;
+        font-weight: 600;
+        font-family: $base-font-family;
+        font-size: 1.1em;
 /*        font-size: 26px; */
 
         @include media-query($on-laptop) {
@@ -158,38 +185,37 @@ h1 /* .post-title */ {
 }
 
 .footnotes ol li {list-style-type:decimal;}
-.footnotes ol {font-size:.85em; color:#98959a;}	
+.footnotes ol {font-size:.85em; color:#8c8880;}
 	
 html {
   overflow-y: scroll;
 }
 
 ul.listing {
-	list-style-type: none;
-	margin-left: 0px;
+    list-style-type: none;
+    margin-left: 0px;
 }
 
 ul.listing li.listing-seperator {
-	padding-top: 15px;
-	font-weight: bold;
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 1.17em;
+    padding-top: 15px;
+    font-weight: 400;
+    font-family: 'Playfair Display', 'Times New Roman', Georgia, serif;
+    font-size: 1.17em;
+    color: #1a1815;
 }
 
 ul.listing li.listing-item time {
-
-	color: $grey-color;
-	font-weight: 500;
-	text-transform: uppercase;
-	padding-right: 10px;
+    color: $grey-color;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-right: 10px;
 }
 
 ul.listing li.listing-item a {
-	color: $text-color;
-	font-weight: 400;
-	font-family: 'Titillium Web', sans-serif;
+    color: $text-color;
+    font-weight: 400;
+    font-family: $base-font-family;
     &:hover {
-        color: $accent-color-light;
+        color: $accent-color-dark;
     }
 }
-

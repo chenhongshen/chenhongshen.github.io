@@ -1,151 +1,156 @@
 /**
- * Site header
+ * Site header — deep black chrome with gold hairline
  */
 .site-header {
-    border-top: 0px solid $grey-color-dark;
-    // min-height: 56px;
-    background-image: linear-gradient(180deg, #1a1a1d 0%, #121214 100%);
-    box-shadow: 0 1px 0 rgba(200, 169, 106, 0.25), 0 6px 24px rgba(0, 0, 0, 0.55);
+    border-top: 3px solid $brand-color;
+    background: $dark-bg;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.04) inset, 0 4px 20px rgba(0, 0, 0, 0.4);
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
-    font-size: 26px;
-/* 		margin-top: 15px;
-    line-height: 40px; */
-    // letter-spacing: -1px;
-    // margin-bottom: 0;
+    font-size: 24px;
     float: left;
-    font-weight: 500;
-		font-family: 'Titillium Web', sans-serif;
-    color: #f2ede2;
+    font-weight: 400;
+    font-family: 'Playfair Display', 'Times New Roman', Georgia, serif;
+    letter-spacing: 0.02em;
+    color: $dark-text;
     &,
     &:visited {
-        color: #f2ede2;
+        color: $dark-text;
     }
     &,
     &:hover {
         color: #ffffff;
-	   text-decoration: none;
+        text-decoration: none;
     }
 }
 
 .site-header .wrapper {
-	padding-top: 10px;
-    padding-bottom: 10px;
-	position: relative;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    position: relative;
 }
 
 .site-nav ul li a {
-	color: #d8d5cf;
+    color: $dark-text-dim;
 }
 
 .site-nav ul {
-
-	text-align: right;
-	float: right;
-	padding-top: 9px;
-	font-size: 85%;
-	letter-spacing: 1px;
-	line-height: 1em;
-	font-weight: 600;
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	text-transform: uppercase;
-    font-family: 'Titillium Web', sans-serif;
+    text-align: right;
+    float: right;
+    padding-top: 9px;
+    font-size: 85%;
+    letter-spacing: 1.5px;
+    line-height: 1em;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 .site-nav .menu > li {
-	border-bottom: 0px solid transparent;
-	display: inline-block;
-	height: 23px;
-	line-height: normal;
-	margin: 12px 10px 0 10px;
-	position: relative;
+    border-bottom: 0px solid transparent;
+    display: inline-block;
+    height: 23px;
+    line-height: normal;
+    margin: 12px 10px 0 10px;
+    position: relative;
     vertical-align: top;
-    &:hover {
-        text-decoration: underline;
-        text-decoration-color: $brand-color;
+
+    // gold underline that grows from left on hover
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -4px;
+        width: 0;
+        height: 1.5px;
+        background: $brand-color;
+        transition: width 0.25s ease;
+    }
+
+    &:hover::after {
+        width: 100%;
     }
 }
 
 .site-nav a {
-	display: block;
-    color: #d8d5cf;
+    display: block;
+    color: $dark-text-dim;
+    transition: color 0.2s ease;
+    &:hover {
+        color: #ffffff;
+    }
 }
 
 /* Sub Menu */
 
 .site-nav .sub-menu a {
-	display: block;
-	font-weight: normal;
-	height: auto;
-	letter-spacing: 0;
-	line-height: 1.2em;
-	padding: 4px 10px;
-    color: $text-color;
+    display: block;
+    font-weight: normal;
+    height: auto;
+    letter-spacing: 0;
+    line-height: 1.2em;
+    padding: 4px 10px;
+    color: $dark-text-dim;
+    text-transform: none;
+    font-size: 90%;
 }
 
 .site-nav .sub-menu a:hover {
-	color: $accent-color-light;
+    color: #ffffff;
+    background: $dark-bg-soft;
 }
 .site-nav  .sub-menu {
-	// background: #17171a;
-    // border-color: $accent-color-dark;
-	// min-width: 265px;
-
-	z-index:2147483647;
+    z-index: 2147483647;
 }
 .site-nav .sub-menu li.current-menu-item > a {
-	border-left-color: $accent-color-light;
-	border-right-color: $accent-color-light;
-	border-right: 0px;
-
+    border-left-color: $brand-color;
+    border-right-color: $brand-color;
+    border-right: 0px;
 }
 
 
 .sub-menu {
-	border: 1px solid $border-color;
+    border: 1px solid rgba(255, 255, 255, 0.12);
     border-top: 20px solid transparent;
-	/* bg and border colors set in header */
-	box-shadow: 0 8px 24px rgba(0,0,0,0.6);
-	-moz-box-shadow: 0 8px 24px rgba(0,0,0,0.6);
-	-webkit-box-shadow: 0 8px 24px rgba(0,0,0,0.6);
-	display: none;
-	right: -25%;
-	padding: 4px 0 3px 0;
-	position: absolute;
-	text-align: left;
-	text-transform: none;
-	top: 15px;
-	// min-width: 265px;
-
-    z-index:2147483647;
-	font-family: Helvetica, Arial, Verdana, sans-serif;
-
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6);
+    display: none;
+    right: -25%;
+    padding: 4px 0 3px 0;
+    position: absolute;
+    text-align: left;
+    text-transform: none;
+    top: 15px;
+    z-index: 2147483647;
+    font-family: 'Open Sans', Helvetica, Arial, Verdana, sans-serif;
+    background: $dark-bg;
 }
 
 .sub-menu li {
-	border-bottom: 0;
-	display: block;
-	height: auto;
-	// margin: 3px 0;
-	padding: 0;
+    border-bottom: 0;
+    display: block;
+    height: auto;
+    padding: 0;
     text-align: left;
-    background: #17171a;
+    background: $dark-bg;
 }
 
 .site-nav li:hover > .sub-menu {
-	display: block;
+    display: block;
 }
 
 
 
 .site-nav h1 {
-	position: absolute;
-	left: -999em;
+    position: absolute;
+    left: -999em;
 }
 
 
@@ -153,13 +158,12 @@
     float: right;
     line-height: 40px;
 
-
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: #d8d5cf;
+        color: $dark-text-dim;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -168,14 +172,12 @@
         }
     }
 
-
-
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
         right: 30px;
-        background-color: $surface-color;
-        border: 1px solid $border-color;
+        background-color: $dark-bg;
+        border: 1px solid rgba(255, 255, 255, 0.12);
         border-radius: 5px;
         text-align: right;
 
@@ -193,7 +195,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $dark-text-dim;
                 }
             }
         }
@@ -214,4 +216,3 @@
         }
     }
 }
-

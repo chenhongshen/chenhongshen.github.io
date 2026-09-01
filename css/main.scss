@@ -10,20 +10,29 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-// ===== Premium dark theme =====
-$background-color: #0e0e10;
-$text-color:       #e6e4e0;
+// ===== Premium theme: dark chrome + ivory content =====
+// Structure: deep black header/footer sandwiching a warm ivory content area.
+// The dark chrome carries the "premium black" feel; the ivory body keeps
+// long-form text comfortable to read.
 
-$brand-color:      #c8a96a;   // champagne gold
-$accent-color-dark:  #b3965a;
-$accent-color-light: #e3c885;
+$background-color: #faf9f6;   // ivory content background
+$text-color:       #2b2926;   // warm near-black text
 
-$surface-color:    #17171a;   // cards, boxes
-$border-color:     #2a2a2e;
+$brand-color:      #8a6d3b;   // antique gold (links, accents)
+$accent-color-dark:  #6e5628;
+$accent-color-light: #a5854c;
 
-$grey-color:       #98959a;
-$grey-color-light: #2a2a2e;
-$grey-color-dark:  #45424a;
+$dark-bg:          #141414;   // header / footer black
+$dark-bg-soft:     #1e1e1e;   // raised surfaces on dark
+$dark-text:        #f5f2ea;   // text on dark
+$dark-text-dim:    #b5b0a4;   // secondary text on dark
+
+$surface-color:    #ffffff;   // cards, boxes on ivory
+$border-color:     #e5e1d8;   // hairline borders on ivory
+
+$grey-color:       #8c8880;
+$grey-color-light: #e5e1d8;
+$grey-color-dark:  #55524b;
 
 
 // Width of the content area

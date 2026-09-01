@@ -26,10 +26,46 @@ body {
 }
 
 ::selection {
-    background: rgba(200, 169, 106, 0.35);
-    color: #fff;
+    background: rgba(138, 109, 59, 0.22);
+    color: #2b2926;
 }
 
+/**
+ * Custom scrollbar — slim, warm grey (WebKit)
+ */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f0ede5;
+}
+::-webkit-scrollbar-thumb {
+    background: #c9c3b4;
+    border-radius: 5px;
+    border: 2px solid #f0ede5;
+    &:hover {
+        background: #a89f8a;
+    }
+}
+
+/**
+ * Page fade-in on load
+ */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.page-content {
+    animation: fadeUp 0.5s ease both;
+}
 
 
 
@@ -85,46 +121,93 @@ li {
 
 
 /**
- * Headings
+ * Headings — serif display type for a refined, editorial feel
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 200;
+    font-weight: 400;
+    font-family: 'Playfair Display', 'Times New Roman', Georgia, serif;
+    color: #1a1815;
+    letter-spacing: 0.01em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: $spacing-unit * 1.2;
+    padding-bottom: 8px;
+    border-bottom: 1px solid $border-color;
+    position: relative;
+
+    // short gold rule under the heading text
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        width: 56px;
+        height: 2px;
+        background: $brand-color;
+    }
 }
 
 
 
 /**
- * Links
+ * Links — animated underline in body text
  */
 a {
     color: $brand-color;
     text-decoration: none;
-    transition: color 0.2s ease;
+    background-image: linear-gradient($brand-color, $brand-color);
+    background-size: 0% 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: color 0.2s ease, background-size 0.25s ease;
 
    &:visited {
     /*    color: darken($brand-color, 15%); */
-    } 
+    }
 
     &:hover {
-        color: $accent-color-light;
-        // text-decoration: underline;
+        color: $accent-color-dark;
+        background-size: 100% 1px;
     }
 }
 
+// nav / footer / buttons keep plain links without the animated underline
+.site-nav a,
+.site-footer a,
+.site-title,
+.color-button,
+.wp-caption dt a {
+    background-image: none;
+}
+
 /**
- * Blockquotes
+ * Blockquotes — refined with a serif drop quote feel
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
+    color: #55524b;
+    border-left: 2px solid $brand-color;
+    padding: 4px 0 4px $spacing-unit / 1.5;
+    margin: $spacing-unit / 2 0;
     font-size: 18px;
-    letter-spacing: -1px;
+    letter-spacing: -0.4px;
     font-style: italic;
+    font-family: 'Playfair Display', Georgia, serif;
 
     > :last-child {
         margin-bottom: 0;
     }
+}
+
+/**
+ * Horizontal rule — fading gold hairline
+ */
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(138, 109, 59, 0), rgba(138, 109, 59, 0.5), rgba(138, 109, 59, 0));
+    margin: $spacing-unit 0;
 }
 
 
@@ -136,8 +219,8 @@ pre,
 code {
     font-size: 14px;
     border: 1px solid $border-color;
-    border-radius: 3px;
-    background-color: $surface-color;
+    border-radius: 4px;
+    background-color: #f4f2ec;
 }
 
 code {
@@ -214,19 +297,21 @@ pre {
  * Color button 
  */
 .color-button {
-    background: $accent-color-dark;
-    border-style: none;
-    border-radius: 10px;
-    color: #14140f;
-    font-weight: bold;
+    background: $surface-color;
+    border: 1px solid $brand-color;
+    border-radius: 3px;
+    color: $brand-color;
+    font-weight: 600;
     font-size: 12px;
+    letter-spacing: 0.05em;
     display: inline-block;
-    padding: 0px 10px;
+    padding: 1px 10px;
     margin: 0px 5px 0 0;
     cursor: pointer;
-    transition: background 0.2s ease;
+    transition: all 0.2s ease;
     &:hover {
-        background: $accent-color-light;
+        background: $brand-color;
+        color: #fff;
     }
 }
 
@@ -235,40 +320,52 @@ pre {
  * bibtex-box
  */
 .bibtex-box {
-    border:1px solid $border-color;
-    padding:3px 10px; 
-    margin: 0px 5px 0 0;
+    border: 1px solid $border-color;
+    padding: 8px 12px;
+    margin: 8px 5px 0 0;
     font-size: 13px;
-    background: $surface-color;
-    color: $text-color;
-    width:66%;
-    border-radius:10px;
-    border-style: solid;
-    border-width: 1px;
+    background: #f4f2ec;
+    color: #55524b;
+    width: 66%;
+    border-radius: 4px;
+    font-family: 'SF Mono', Menlo, Consolas, monospace;
 }
 
 /**
  * abstract-box
  */
 .abstract-box {
-    border:1px solid $border-color;
-    padding:3px 10px; 
-    margin: 0px 5px 0 0;
+    border: 1px solid $border-color;
+    border-left: 3px solid $brand-color;
+    padding: 10px 14px;
+    margin: 8px 5px 0 0;
     font-size: 15px;
     background: $surface-color;
-    width:95%;
-    border-radius:10px;
-    border-style: solid;
-    border-width: 1px;
+    width: 95%;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(26, 24, 21, 0.05);
 }
 
 a.tosu {
-color: $accent-color-light;
-background: $surface-color;
-text-decoration: none;
- padding: 2px; 
- font-weight: 600; 
-font-family: 'Capita', Georgia, serif;
+    color: $accent-color-dark;
+    background: #f4f2ec;
+    text-decoration: none;
+    padding: 2px;
+    font-weight: 600;
+    font-family: 'Capita', Georgia, serif;
 }
 
+/**
+ * Updates panel on the homepage — framed scrollable news box
+ */
+.updates {
+    border: 1px solid $border-color;
+    border-radius: 4px;
+    background: $surface-color;
+    padding: 4px 18px;
+    box-shadow: 0 1px 3px rgba(26, 24, 21, 0.05);
 
+    ul {
+        margin-left: 18px;
+    }
+}

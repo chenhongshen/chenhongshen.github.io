@@ -1,61 +1,69 @@
 .wp-caption {
-background-color: #17171a;
-text-align: center;
-border: 1px solid #2a2a2e;
-	font-size: 0.90em;
-	overflow: hidden;
-	position: relative;
+    background-color: $surface-color;
+    text-align: center;
+    border: 1px solid $border-color;
+    font-size: 0.90em;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 0 2px 12px rgba(26, 24, 21, 0.08);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
 
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 24px rgba(26, 24, 21, 0.14);
+    }
 }
 
 .wp-caption dd {
-        color: #e6e4e0;
-	background-color: #17171a;
-	font-size: .9em;
-	padding: 2px 8px 3px 8px;
-	margin: 1px 0 0 0;
+    color: $grey-color;
+    background-color: #f7f5f0;
+    font-size: .9em;
+    padding: 6px 10px;
+    margin: 0;
+    border-top: 1px solid $border-color;
 }
 
 .wp-caption dt {
-	margin: 0;
+    margin: 0;
 }
 
-.wp-caption img {
-	display: block;
-	margin: 0;
-	padding: 0;
-	border: 0;
-	z-index: 0;
+.wp-caption dt img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    z-index: 0;
 }
 
 
 .alignleft,
 .alignright {
-	margin-top: 4px;
+    margin-top: 4px;
 }
 .alignleft {
-	float: left;
-	margin-right: 20px;
-	margin-bottom: 15px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 15px;
 }
 .alignright {
-	float: right;
-	margin-left: 20px;
-	margin-bottom: 15px;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 15px;
 }
 .aligncenter {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media only screen and (max-width: 600px) {
-	.alignleft,
-	.alignright,
-	.aligncenter {
-		display: block;
-		float: none;
-		margin-left: auto;
-		margin-right: auto;
-	}
+    .alignleft,
+    .alignright,
+    .aligncenter {
+        display: block;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
