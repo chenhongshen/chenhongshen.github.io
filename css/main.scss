@@ -10,16 +10,20 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #0077CC;
+// ===== Premium dark theme =====
+$background-color: #0e0e10;
+$text-color:       #e6e4e0;
 
-$blue-color-dark: darken(#2077f5, 10%);
-$blue-color-light: #00aeff;
+$brand-color:      #c8a96a;   // champagne gold
+$accent-color-dark:  #b3965a;
+$accent-color-light: #e3c885;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$surface-color:    #17171a;   // cards, boxes
+$border-color:     #2a2a2e;
+
+$grey-color:       #98959a;
+$grey-color-light: #2a2a2e;
+$grey-color-dark:  #45424a;
 
 
 // Width of the content area

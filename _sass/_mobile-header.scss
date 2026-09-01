@@ -12,7 +12,7 @@
 	}
 
 .site-nav .menu {
-		border: 3px solid white;
+		border: 3px solid #2a2a2e;
 		border-radius: 5px;
 		// border-top: 0;
 		/* bg and border colors set in header */
@@ -38,12 +38,12 @@
 .site-nav .menu li {
 		display: block;
 		margin: 0;
-		color: $blue-color-dark;
+		color: $text-color;
 	}
 
 .site-nav ul.menu a {
-	background: #fff;
-	color: $blue-color-dark;
+	background: #17171a;
+	color: $text-color;
 
 }
 
@@ -53,21 +53,21 @@
 	}
 
 .site-nav .sub-menu {
-		border: 3px solid transparent;
-		-moz-box-shadow: none; /* FF3.5+ */
-		-webkit-box-shadow: none; /* Saf3+, Chrome */
-		box-shadow: none; /* Standard. Opera 10.5, IE9 */
-		display: block;
-		font-family: 'Titillium Web', Helvetica, Arial, Verdana, sans-serif;
-		position: relative;
-		min-width: 215px;
-		max-width: 215px;
-		top: auto;
-		text-transform: uppercase;
-		right: auto;
-		width: auto;
-		background: white;
-	}
+	border: 3px solid transparent;
+	-moz-box-shadow: none; /* FF3.5+ */
+	-webkit-box-shadow: none; /* Saf3+, Chrome */
+	box-shadow: none; /* Standard. Opera 10.5, IE9 */
+	display: block;
+	font-family: 'Titillium Web', Helvetica, Arial, Verdana, sans-serif;
+	position: relative;
+	min-width: 215px;
+	max-width: 215px;
+	top: auto;
+	text-transform: uppercase;
+	right: auto;
+	width: auto;
+	background: #17171a;
+}
 
 	.site-nav .sub-menu {
 		padding-left: 16px;
