@@ -3,40 +3,49 @@
 ---
 @charset "utf-8";
 
-$base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+$base-font-family: 'Inter', 'Open Sans', Helvetica, Arial, sans-serif;
 $base-font-size:   .95em;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1.65;
+
+$mono-font-family: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
 
 $spacing-unit:     30px;
 
-// ===== Premium theme: dark chrome + ivory content =====
-// Structure: deep black header/footer sandwiching a warm ivory content area.
-// The dark chrome carries the "premium black" feel; the ivory body keeps
-// long-form text comfortable to read.
+// ===== Obsidian × Gold theme =====
+// Full-black obsidian surfaces with metallic gold accents.
+// Tech-feel comes from the mono annotations, grid overlays and glows;
+// prestige comes from the champagne-gold gradients and hairlines.
 
-$background-color: #faf9f6;   // ivory content background
-$text-color:       #2b2926;   // warm near-black text
+// Backgrounds (near-black with a cool undertone)
+$bg-0:            #060607;   // deepest layer, page floor
+$bg-1:            #0a0a0c;   // main page background
+$bg-2:            #101014;   // card / raised surface
+$bg-3:            #16161b;   // hover / emphasized surface
 
-$brand-color:      #8a6d3b;   // antique gold (links, accents)
-$accent-color-dark:  #6e5628;
-$accent-color-light: #a5854c;
+// Gold system
+$brand-color:      #d4af37;  // metallic gold
+$accent-color-dark:  #8f7220;  // deep gold (hover shade)
+$accent-color-light: #f5d97a;  // bright champagne gold
 
-$dark-bg:          #141414;   // header / footer black
-$dark-bg-soft:     #1e1e1e;   // raised surfaces on dark
-$dark-text:        #f5f2ea;   // text on dark
-$dark-text-dim:    #b5b0a4;   // secondary text on dark
+// Text on dark
+$text-color:      #ecebe7;   // primary
+$dark-text:       #f2f0ea;   // high-emphasis headings
+$dark-text-dim:   #a9a59c;   // secondary
+$text-faint:      #6f6b64;   // tertiary / meta
 
-$surface-color:    #ffffff;   // cards, boxes on ivory
-$border-color:     #e5e1d8;   // hairline borders on ivory
-
-$grey-color:       #8c8880;
-$grey-color-light: #e5e1d8;
-$grey-color-dark:  #55524b;
-
+// Legacy aliases used by partials
+$background-color: $bg-1;
+$dark-bg:          #0a0a0c;
+$dark-bg-soft:     #16161b;
+$surface-color:   #101014;
+$border-color:     rgba(255, 255, 255, 0.08);
+$grey-color:       #a9a59c;
+$grey-color-light: rgba(255, 255, 255, 0.08);
+$grey-color-dark:  #6f6b64;
 
 // Width of the content area
-$content-width:    950px;
+$content-width:    1060px;
 
 $on-palm:          600px;
 $on-laptop:        950px;

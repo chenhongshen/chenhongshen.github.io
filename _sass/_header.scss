@@ -1,20 +1,25 @@
 /**
- * Site header — deep black chrome with gold hairline
+ * Site header — obsidian glass bar with gold hairline
  */
 .site-header {
-    border-top: 3px solid $brand-color;
-    background: $dark-bg;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.04) inset, 0 4px 20px rgba(0, 0, 0, 0.4);
-    // Positioning context for the mobile navigation icon
+    border-top: 2px solid $brand-color;
+    background: rgba(8, 8, 10, 0.82);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05) inset, 0 8px 32px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
     position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .site-title {
-    font-size: 24px;
+    font-size: 21px;
     float: left;
-    font-weight: 400;
-    font-family: 'Playfair Display', 'Times New Roman', Georgia, serif;
-    letter-spacing: 0.02em;
+    font-weight: 700;
+    font-family: $base-font-family;
+    letter-spacing: -0.01em;
     color: $dark-text;
     &,
     &:visited {
@@ -22,14 +27,15 @@
     }
     &,
     &:hover {
-        color: #ffffff;
+        color: $accent-color-light;
         text-decoration: none;
+        text-shadow: 0 0 18px rgba(212, 175, 55, 0.4);
     }
 }
 
 .site-header .wrapper {
-    padding-top: 14px;
-    padding-bottom: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     position: relative;
 }
 
@@ -44,12 +50,12 @@
     font-size: 85%;
     letter-spacing: 1.5px;
     line-height: 1em;
-    font-weight: 400;
+    font-weight: 500;
     margin: 0;
     padding: 0;
     list-style-type: none;
     text-transform: uppercase;
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: $base-font-family;
 }
 
 .site-nav .menu > li {
@@ -69,7 +75,8 @@
         bottom: -4px;
         width: 0;
         height: 1.5px;
-        background: $brand-color;
+        background: linear-gradient(90deg, $accent-color-light, $brand-color);
+        box-shadow: 0 0 8px rgba(212, 175, 55, 0.6);
         transition: width 0.25s ease;
     }
 
@@ -83,7 +90,7 @@
     color: $dark-text-dim;
     transition: color 0.2s ease;
     &:hover {
-        color: #ffffff;
+        color: $accent-color-light;
     }
 }
 
@@ -102,7 +109,7 @@
 }
 
 .site-nav .sub-menu a:hover {
-    color: #ffffff;
+    color: $accent-color-light;
     background: $dark-bg-soft;
 }
 .site-nav  .sub-menu {
@@ -129,8 +136,9 @@
     text-transform: none;
     top: 15px;
     z-index: 2147483647;
-    font-family: 'Open Sans', Helvetica, Arial, Verdana, sans-serif;
-    background: $dark-bg;
+    font-family: $base-font-family;
+    background: #0d0d10;
+    backdrop-filter: blur(10px);
 }
 
 .sub-menu li {
@@ -139,7 +147,7 @@
     height: auto;
     padding: 0;
     text-align: left;
-    background: $dark-bg;
+    background: transparent;
 }
 
 .site-nav li:hover > .sub-menu {
@@ -176,7 +184,7 @@
         position: absolute;
         top: 9px;
         right: 30px;
-        background-color: $dark-bg;
+        background-color: rgba(8, 8, 10, 0.96);
         border: 1px solid rgba(255, 255, 255, 0.12);
         border-radius: 5px;
         text-align: right;

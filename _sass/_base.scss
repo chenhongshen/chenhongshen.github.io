@@ -9,53 +9,61 @@ dl, dd, ol, ul, figure {
 }
 
 
-
 /**
- * Basic styling
+ * Basic styling — obsidian atmosphere with subtle tech grid
  */
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    font-weight: 300;
+    font-weight: 400;
     color: $text-color;
-    background-color: $background-color;
+    background-color: $bg-1;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    // Tech grid + gold aurora glows, fixed so they stay behind scrolling content
+    background-image:
+        radial-gradient(ellipse 80% 50% at 50% -10%, rgba(212, 175, 55, 0.07), transparent 70%),
+        radial-gradient(ellipse 60% 40% at 85% 110%, rgba(212, 175, 55, 0.04), transparent 70%),
+        linear-gradient(rgba(255, 255, 255, 0.022) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.022) 1px, transparent 1px);
+    background-size: 100% 100%, 100% 100%, 44px 44px, 44px 44px;
+    background-attachment: fixed;
 }
 
 ::selection {
-    background: rgba(138, 109, 59, 0.22);
-    color: #2b2926;
+    background: rgba(212, 175, 55, 0.28);
+    color: #fff;
 }
 
 /**
- * Custom scrollbar — slim, warm grey (WebKit)
+ * Custom scrollbar — dark with gold thumb
  */
 ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #f0ede5;
+    background: $bg-0;
 }
 ::-webkit-scrollbar-thumb {
-    background: #c9c3b4;
+    background: #2a2a30;
     border-radius: 5px;
-    border: 2px solid #f0ede5;
+    border: 2px solid $bg-0;
     &:hover {
-        background: #a89f8a;
+        background: $brand-color;
     }
 }
 
 /**
- * Page fade-in on load
+ * Page entrance
  */
 @keyframes fadeUp {
     from {
         opacity: 0;
-        transform: translateY(8px);
+        transform: translateY(10px);
     }
     to {
         opacity: 1;
@@ -66,7 +74,6 @@ body {
 .page-content {
     animation: fadeUp 0.5s ease both;
 }
-
 
 
 /**
@@ -80,7 +87,6 @@ ul, ol, dl, figure,
 }
 
 
-
 /**
  * Images
  */
@@ -88,8 +94,6 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
-
-
 
 /**
  * Figures
@@ -100,8 +104,8 @@ figure > img {
 
 figcaption {
     font-size: $small-font-size;
+    color: $text-faint;
 }
-
 
 
 /**
@@ -119,57 +123,66 @@ li {
 }
 
 
-
 /**
- * Headings — serif display type for a refined, editorial feel
+ * Headings — modern grotesk with mono kicker styling hooks
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 400;
-    font-family: 'Playfair Display', 'Times New Roman', Georgia, serif;
-    color: #1a1815;
-    letter-spacing: 0.01em;
+    font-weight: 700;
+    font-family: $base-font-family;
+    color: $dark-text;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
 }
 
 h2 {
-    font-size: 1.5em;
-    margin-top: $spacing-unit * 1.2;
-    padding-bottom: 8px;
+    font-size: 1.55em;
+    margin-top: $spacing-unit * 1.35;
+    padding-bottom: 10px;
     border-bottom: 1px solid $border-color;
     position: relative;
 
-    // short gold rule under the heading text
+    // gold gradient rule that fades out, plus a bright tick
     &::after {
         content: "";
         position: absolute;
         left: 0;
         bottom: -1px;
-        width: 56px;
+        width: 64px;
         height: 2px;
-        background: $brand-color;
+        background: linear-gradient(90deg, $accent-color-light, $brand-color 55%, transparent);
+    }
+
+    // mono section index like "01" — used via data attributes is not
+    // possible in markdown, so we render a subtle corner tick instead
+    &::before {
+        content: "";
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        margin-right: 12px;
+        transform: translateY(-1px) rotate(45deg);
+        background: linear-gradient(135deg, $accent-color-light, $brand-color);
+        box-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
     }
 }
 
 
-
 /**
- * Links — animated underline in body text
+ * Links — gold with glow underline
  */
 a {
     color: $brand-color;
     text-decoration: none;
     background-image: linear-gradient($brand-color, $brand-color);
-    background-size: 0% 1px;
+    background-size: 100% 1px;
     background-position: 0 100%;
     background-repeat: no-repeat;
-    transition: color 0.2s ease, background-size 0.25s ease;
-
-   &:visited {
-    /*    color: darken($brand-color, 15%); */
-    }
+    transition: color 0.2s ease, background-size 0.25s ease, text-shadow 0.25s ease;
 
     &:hover {
-        color: $accent-color-dark;
+        color: $accent-color-light;
         background-size: 100% 1px;
+        text-shadow: 0 0 14px rgba(212, 175, 55, 0.45);
     }
 }
 
@@ -183,17 +196,15 @@ a {
 }
 
 /**
- * Blockquotes — refined with a serif drop quote feel
+ * Blockquotes — gold rail with mono flavour
  */
 blockquote {
-    color: #55524b;
+    color: $dark-text-dim;
     border-left: 2px solid $brand-color;
     padding: 4px 0 4px $spacing-unit / 1.5;
     margin: $spacing-unit / 2 0;
-    font-size: 18px;
-    letter-spacing: -0.4px;
+    font-size: 1em;
     font-style: italic;
-    font-family: 'Playfair Display', Georgia, serif;
 
     > :last-child {
         margin-bottom: 0;
@@ -206,38 +217,39 @@ blockquote {
 hr {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(138, 109, 59, 0), rgba(138, 109, 59, 0.5), rgba(138, 109, 59, 0));
+    background-image: linear-gradient(to right, rgba(212, 175, 55, 0), rgba(212, 175, 55, 0.45), rgba(212, 175, 55, 0));
     margin: $spacing-unit 0;
 }
 
 
-
 /**
- * Code formatting
+ * Code formatting — dark panels, mono type
  */
 pre,
 code {
-    font-size: 14px;
-    border: 1px solid $border-color;
-    border-radius: 4px;
-    background-color: #f4f2ec;
+    font-family: $mono-font-family;
+    font-size: 13px;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 6px;
+    background-color: $bg-2;
 }
 
 code {
-    padding: 1px 5px;
+    padding: 1px 6px;
+    color: $accent-color-light;
 }
 
 pre {
-    padding: 8px 12px;
+    padding: 12px 16px;
     overflow-x: scroll;
 
     > code {
         border: 0;
         padding-right: 0;
         padding-left: 0;
+        color: $text-color;
     }
 }
-
 
 
 /**
@@ -261,7 +273,6 @@ pre {
 }
 
 
-
 /**
  * Clearfix
  */
@@ -273,7 +284,6 @@ pre {
         clear: both;
     }
 }
-
 
 
 /**
@@ -292,26 +302,29 @@ pre {
         }
     }
 }
-
 /**
- * Color button 
+ * Color button — gold-outline chip that fills on hover
  */
 .color-button {
-    background: $surface-color;
-    border: 1px solid $brand-color;
-    border-radius: 3px;
+    background: rgba(212, 175, 55, 0.06);
+    border: 1px solid rgba(212, 175, 55, 0.4);
+    border-radius: 4px;
     color: $brand-color;
     font-weight: 600;
-    font-size: 12px;
-    letter-spacing: 0.05em;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-family: $mono-font-family;
     display: inline-block;
-    padding: 1px 10px;
-    margin: 0px 5px 0 0;
+    padding: 3px 12px;
+    margin: 0px 6px 0 0;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: all 0.22s ease;
     &:hover {
         background: $brand-color;
-        color: #fff;
+        border-color: $brand-color;
+        color: #0a0a0c;
+        box-shadow: 0 0 18px rgba(212, 175, 55, 0.4);
     }
 }
 
@@ -320,52 +333,368 @@ pre {
  * bibtex-box
  */
 .bibtex-box {
-    border: 1px solid $border-color;
-    padding: 8px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    padding: 10px 14px;
     margin: 8px 5px 0 0;
     font-size: 13px;
-    background: #f4f2ec;
-    color: #55524b;
+    background: $bg-2;
+    color: $dark-text-dim;
     width: 66%;
-    border-radius: 4px;
-    font-family: 'SF Mono', Menlo, Consolas, monospace;
+    border-radius: 6px;
+    font-family: $mono-font-family;
 }
 
 /**
  * abstract-box
  */
 .abstract-box {
-    border: 1px solid $border-color;
-    border-left: 3px solid $brand-color;
-    padding: 10px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-left: 2px solid $brand-color;
+    padding: 12px 18px;
     margin: 8px 5px 0 0;
     font-size: 15px;
-    background: $surface-color;
+    background: $bg-2;
     width: 95%;
-    border-radius: 4px;
-    box-shadow: 0 1px 3px rgba(26, 24, 21, 0.05);
+    border-radius: 6px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
 }
 
 a.tosu {
-    color: $accent-color-dark;
-    background: #f4f2ec;
+    color: $accent-color-light;
+    background: $bg-2;
     text-decoration: none;
     padding: 2px;
     font-weight: 600;
-    font-family: 'Capita', Georgia, serif;
 }
 
 /**
- * Updates panel on the homepage — framed scrollable news box
+ * Updates panel on the homepage — glass panel
  */
 .updates {
-    border: 1px solid $border-color;
-    border-radius: 4px;
-    background: $surface-color;
-    padding: 4px 18px;
-    box-shadow: 0 1px 3px rgba(26, 24, 21, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 8px;
+    background: $bg-2;
+    padding: 6px 22px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
 
     ul {
         margin-left: 18px;
+    }
+}
+
+/**
+ * ===== Homepage hero (Obsidian × Gold) =====
+ */
+.hero {
+    position: relative;
+    padding: 68px 0 56px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+// kicker: "NLP LEAD · JD.COM" in mono gold
+.hero-kicker {
+    font-family: $mono-font-family;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: $brand-color;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    &::before {
+        content: "";
+        width: 36px;
+        height: 1px;
+        background: linear-gradient(90deg, $brand-color, transparent);
+    }
+}
+
+// main title with metallic gold gradient text
+.hero-title {
+    font-size: clamp(40px, 7vw, 64px);
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    margin: 0 0 14px;
+    background: linear-gradient(100deg, #fdf6dd 0%, $brand-color 38%, #9a7b24 62%, $accent-color-light 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: goldShimmer 7s linear infinite;
+}
+
+.hero-title .zh {
+    display: block;
+    font-size: 0.42em;
+    font-weight: 500;
+    letter-spacing: 0.5em;
+    margin-top: 12px;
+    color: $dark-text-dim;
+    -webkit-text-fill-color: $dark-text-dim;
+    background: none;
+    animation: none;
+}
+
+@keyframes goldShimmer {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.hero-sub {
+    font-size: 1.06em;
+    color: $dark-text-dim;
+    max-width: 640px;
+    margin: 0 0 28px;
+
+    strong {
+        color: $text-color;
+        font-weight: 600;
+    }
+}
+
+// hero CTA row
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    align-items: center;
+
+    .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-family: $mono-font-family;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        padding: 12px 22px;
+        border-radius: 4px;
+        transition: all 0.25s ease;
+
+        &.btn-primary {
+            background: linear-gradient(135deg, $accent-color-light, $brand-color);
+            color: #0a0a0c;
+            box-shadow: 0 0 0 1px rgba(212, 175, 55, 0.35), 0 8px 28px rgba(212, 175, 55, 0.25);
+            &:hover {
+                color: #0a0a0c;
+                transform: translateY(-2px);
+                box-shadow: 0 0 0 1px rgba(212, 175, 55, 0.6), 0 12px 36px rgba(212, 175, 55, 0.45);
+                background-size: 150% auto;
+            }
+        }
+
+        &.btn-ghost {
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            color: $dark-text-dim;
+            background: rgba(255, 255, 255, 0.02);
+            &:hover {
+                color: $accent-color-light;
+                border-color: rgba(212, 175, 55, 0.55);
+                transform: translateY(-2px);
+            }
+        }
+    }
+}
+
+// portrait card on the right of the hero
+.hero-photo {
+    position: relative;
+    border: 1px solid rgba(212, 175, 55, 0.25);
+    border-radius: 8px;
+    overflow: hidden;
+    background: $bg-2;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.55);
+
+    img {
+        display: block;
+        width: 100%;
+        filter: grayscale(28%) contrast(1.04);
+        transition: filter 0.4s ease;
+    }
+
+    &:hover img {
+        filter: grayscale(0%) contrast(1.04);
+    }
+
+    // corner brackets like a HUD reticle
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        border: 2px solid $brand-color;
+        z-index: 2;
+        pointer-events: none;
+    }
+    &::before {
+        top: 10px;
+        left: 10px;
+        border-right: 0;
+        border-bottom: 0;
+    }
+    &::after {
+        bottom: 10px;
+        right: 10px;
+        border-left: 0;
+        border-top: 0;
+    }
+
+    figcaption {
+        padding: 10px 14px;
+        font-family: $mono-font-family;
+        font-size: 11px;
+        letter-spacing: 0.08em;
+        color: $text-faint;
+        border-top: 1px solid rgba(255, 255, 255, 0.07);
+        background: rgba(6, 6, 7, 0.6);
+        text-align: left;
+    }
+}
+
+// hero grid layout
+.hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 56px;
+    align-items: center;
+
+    @include media-query($on-palm) {
+        grid-template-columns: 1fr;
+        gap: 36px;
+
+        .hero-photo {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+    }
+}
+
+/**
+ * Research focus tags on the homepage
+ */
+.focus-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 26px 0 0;
+
+    .tag {
+        font-family: $mono-font-family;
+        font-size: 11px;
+        letter-spacing: 0.1em;
+        color: $dark-text-dim;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 3px;
+        padding: 5px 12px;
+        background: rgba(255, 255, 255, 0.025);
+        transition: all 0.22s ease;
+
+        &:hover {
+            color: $accent-color-light;
+            border-color: rgba(212, 175, 55, 0.5);
+            box-shadow: 0 0 16px rgba(212, 175, 55, 0.15);
+        }
+
+        &::before {
+            content: "# ";
+            color: $brand-color;
+        }
+    }
+}
+
+/**
+ * Stat chips row under hero
+ */
+.hero-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    margin-top: 34px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+    .stat {
+        padding: 16px 34px 16px 0;
+        margin-right: 34px;
+        border-right: 1px solid rgba(255, 255, 255, 0.08);
+
+        &:last-child {
+            border-right: 0;
+            margin-right: 0;
+            padding-right: 0;
+        }
+
+        .num {
+            display: block;
+            font-family: $mono-font-family;
+            font-size: 26px;
+            font-weight: 700;
+            color: $accent-color-light;
+            line-height: 1.1;
+            text-shadow: 0 0 22px rgba(212, 175, 55, 0.35);
+        }
+
+        .label {
+            display: block;
+            font-size: 11px;
+            font-family: $mono-font-family;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: $text-faint;
+            margin-top: 5px;
+        }
+    }
+
+    @include media-query($on-palm) {
+        .stat {
+            padding: 12px 20px 12px 0;
+            margin-right: 20px;
+
+            .num {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+/**
+ * Hiring panel — highlighted card with gold pulse
+ */
+.hiring-panel {
+    position: relative;
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    border-radius: 8px;
+    background:
+        linear-gradient($bg-2, $bg-2),
+        radial-gradient(ellipse at 0% 0%, rgba(212, 175, 55, 0.12), transparent 55%);
+    padding: 18px 24px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+
+    &::before {
+        content: "RECRUITING";
+        position: absolute;
+        top: -9px;
+        left: 18px;
+        font-family: $mono-font-family;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.3em;
+        color: #0a0a0c;
+        background: linear-gradient(135deg, $accent-color-light, $brand-color);
+        padding: 2px 10px;
+        border-radius: 2px;
+    }
+
+    ul {
+        margin-left: 18px;
+        margin-bottom: 0;
     }
 }

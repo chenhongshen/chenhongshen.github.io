@@ -1,27 +1,33 @@
+/**
+ * Photo cards — obsidian frame with gold HUD corner
+ */
 .wp-caption {
-    background-color: $surface-color;
+    background-color: $bg-2;
     text-align: center;
-    border: 1px solid $border-color;
+    border: 1px solid rgba(255, 255, 255, 0.09);
     font-size: 0.90em;
     overflow: hidden;
     position: relative;
-    border-radius: 4px;
-    box-shadow: 0 2px 12px rgba(26, 24, 21, 0.08);
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+    transition: box-shadow 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
 
     &:hover {
         transform: translateY(-3px);
-        box-shadow: 0 8px 24px rgba(26, 24, 21, 0.14);
+        border-color: rgba(212, 175, 55, 0.4);
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6), 0 0 24px rgba(212, 175, 55, 0.12);
     }
 }
 
 .wp-caption dd {
-    color: $grey-color;
-    background-color: #f7f5f0;
-    font-size: .9em;
-    padding: 6px 10px;
+    color: $text-faint;
+    background-color: rgba(6, 6, 7, 0.55);
+    font-family: $mono-font-family;
+    font-size: .78em;
+    letter-spacing: 0.06em;
+    padding: 8px 12px;
     margin: 0;
-    border-top: 1px solid $border-color;
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
 }
 
 .wp-caption dt {
