@@ -1,3 +1,28 @@
-[<img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" />](https://jekyll-themes.com)
 # Hongshen Chen's Homepage
-This is Hongshen Chen's Homepage https://www.chenhongshen.com, origined from  *Academic Portfolio*, (https://github.com/svmiller/steve-ngvb-jekyll-template),  and https://ys1998.github.io/academic-portfolio
+
+Personal homepage of Hongshen Chen (陈宏申): https://www.chenhongshen.com
+
+Built with Jekyll and a custom "Obsidian × Gold" design system — full-black layered
+surfaces, metallic gold accents, and a glassmorphism navigation bar.
+
+## Local Development
+
+```bash
+# Install dependencies (requires Ruby and Jekyll)
+gem install jekyll
+
+# Build and preview
+jekyll serve
+```
+
+Then open http://127.0.0.1:4000/ in your browser.
+
+## Structure
+
+- `_layouts/` — page templates
+- `_includes/` — reusable partials (head, header, footer, nav)
+- `_sass/` — theme stylesheets
+- `css/main.scss` — theme entry point and design tokens
+- `index.html` — homepage
+- `publications/` — publication list and paper PDFs
+- `images/` — static images
